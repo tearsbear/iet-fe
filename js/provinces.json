@@ -1,0 +1,227 @@
+[
+  {
+    "name": "Aceh",
+    "capital": "Aceh",
+    "latlng": [4.6951, 96.7494],
+    "projects": [
+      {
+        "name": "Project Aceh 1",
+        "link": "#"
+      },
+      {
+        "name": "Project Aceh 2",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "name": "North Sumatra",
+    "capital": "Medan",
+    "latlng": [2.115, 99.545],
+    "projects": []
+  },
+  {
+    "name": "West Sumatra",
+    "capital": "Padang",
+    "latlng": [-0.7893, 100.356],
+    "projects": []
+  },
+  {
+    "name": "Riau",
+    "capital": "Pekanbaru",
+    "latlng": [0.2933, 101.7068],
+    "projects": []
+  },
+  {
+    "name": "Jambi",
+    "capital": "Jambi",
+    "latlng": [-1.4852, 102.4381],
+    "projects": []
+  },
+  {
+    "name": "South Sumatra",
+    "capital": "Palembang",
+    "latlng": [-3.3194, 103.914],
+    "projects": []
+  },
+  {
+    "name": "Bengkulu",
+    "capital": "Bengkulu",
+    "latlng": [-3.7928, 102.2608],
+    "projects": []
+  },
+  {
+    "name": "Lampung",
+    "capital": "Bandar Lampung",
+    "latlng": [-4.5586, 105.4068],
+    "projects": []
+  },
+  {
+    "name": "Bangka Belitung Islands",
+    "capital": "Pangkal Pinang",
+    "latlng": [-2.7411, 106.4406],
+    "projects": []
+  },
+  {
+    "name": "Riau Islands",
+    "capital": "Tanjung Pinang",
+    "latlng": [3.9456, 108.2135],
+    "projects": []
+  },
+  {
+    "name": "Jakarta",
+    "capital": "Jakarta",
+    "latlng": [-6.2088, 106.8456],
+    "projects": [
+      {
+        "name": "Project JKT 2",
+        "link": "#"
+      },
+      {
+        "name": "Project JKT 2",
+        "link": "#"
+      },
+      {
+        "name": "Project JKT 3",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "name": "Yogyakarta",
+    "capital": "Yogyakarta",
+    "latlng": [-7.7971, 110.3704],
+    "projects": []
+  },
+  {
+    "name": "West Java",
+    "capital": "Bandung",
+    "latlng": [-6.9204, 107.6049],
+    "projects": []
+  },
+  {
+    "name": "Central Java",
+    "capital": "Semarang",
+    "latlng": [-7.1509, 110.1401],
+    "projects": []
+  },
+  {
+    "name": "East Java",
+    "capital": "Surabaya",
+    "latlng": [-7.5361, 112.7126],
+    "projects": []
+  },
+  {
+    "name": "Banten",
+    "capital": "Serang",
+    "latlng": [-6.4058, 106.064],
+    "projects": []
+  },
+  {
+    "name": "Bali",
+    "capital": "Bali",
+    "latlng": [-8.4095, 115.1889],
+    "projects": [
+      {
+        "name": "Project Bali 1",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "name": "West Nusa Tenggara",
+    "capital": "Mataram",
+    "latlng": [-8.6525, 117.3616],
+    "projects": []
+  },
+  {
+    "name": "East Nusa Tenggara",
+    "capital": "Kupang",
+    "latlng": [-8.6574, 121.0794],
+    "projects": []
+  },
+  {
+    "name": "West Kalimantan",
+    "capital": "Pontianak",
+    "latlng": [0.7888, 111.9611],
+    "projects": []
+  },
+  {
+    "name": "Central Kalimantan",
+    "capital": "Palangkaraya",
+    "latlng": [-1.6815, 113.3824],
+    "projects": []
+  },
+  {
+    "name": "South Kalimantan",
+    "capital": "Banjarmasin",
+    "latlng": [-2.8429, 115.1991],
+    "projects": []
+  },
+  {
+    "name": "East Kalimantan",
+    "capital": "Samarinda",
+    "latlng": [0.8696, 116.278],
+    "projects": []
+  },
+  {
+    "name": "North Sulawesi",
+    "capital": "Manado",
+    "latlng": [1.4721, 124.8425],
+    "projects": []
+  },
+  {
+    "name": "Central Sulawesi",
+    "capital": "Palu",
+    "latlng": [-1.4304, 121.4456],
+    "projects": []
+  },
+  {
+    "name": "South Sulawesi",
+    "capital": "Makassar",
+    "latlng": [-4.1339, 119.3404],
+    "projects": []
+  },
+  {
+    "name": "Southeast Sulawesi",
+    "capital": "Kendari",
+    "latlng": [-4.1449, 122.1746],
+    "projects": []
+  },
+  {
+    "name": "Gorontalo",
+    "capital": "Gorontalo",
+    "latlng": [0.6999, 122.4467],
+    "projects": []
+  },
+  {
+    "name": "West Sulawesi",
+    "capital": "Mamuju",
+    "latlng": [-2.5039, 119.3919],
+    "projects": []
+  },
+  {
+    "name": "Maluku",
+    "capital": "Ambon",
+    "latlng": [-3.2385, 130.1452],
+    "projects": []
+  },
+  {
+    "name": "North Maluku",
+    "capital": "Ternate",
+    "latlng": [1.5709, 127.8088],
+    "projects": []
+  },
+  {
+    "name": "Papua",
+    "capital": "Jayapura",
+    "latlng": [-4.2699, 138.0804],
+    "projects": []
+  },
+  {
+    "name": "West Papua",
+    "capital": "Manokwari",
+    "latlng": [-1.3361, 133.1746],
+    "projects": []
+  }
+]

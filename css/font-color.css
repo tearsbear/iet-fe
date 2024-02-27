@@ -1,0 +1,64 @@
+/* import font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --color-primary: #1e74a6;
+  --color-secondary: #fbfcf3;
+  --primary-text: #333333;
+}
+
+.font-inter-light {
+  font-weight: 300 !important;
+  font-family: "Inter", sans-serif;
+}
+
+.font-inter-regular {
+  font-weight: 400 !important;
+  font-family: "Inter", sans-serif;
+}
+
+.font-inter-medium {
+  font-weight: 500 !important;
+  font-family: "Inter", sans-serif;
+}
+
+.font-inter-semi {
+  font-weight: 600 !important;
+  font-family: "Inter", sans-serif;
+}
+
+.font-inter-bold {
+  font-weight: 700 !important;
+  font-family: "Inter", sans-serif;
+}
+
+.font-inter-extrabold {
+  font-weight: 800 !important;
+  font-family: "Inter", sans-serif;
+}
+
+.font-poppins-regular {
+  font-weight: 400 !important;
+  font-family: "Poppins", sans-serif;
+}
+
+.color1 {
+  color: var(--color-primary) !important;
+}
+
+.bg-color1 {
+  background-color: var(--color-primary) !important;
+}
+
+.color2 {
+  color: var(--color-secondary) !important;
+}
+
+.bg-color2 {
+  background-color: var(--color-secondary) !important;
+}
+
+.text-primary {
+  color: var(--primary-text) !important;
+}

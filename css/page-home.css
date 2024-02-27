@@ -1,0 +1,359 @@
+#video-background {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+#video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0 0 0 / 0.6);
+  z-index: 1; /* Ensure overlay appears above video */
+}
+
+#video-text {
+  padding: 0px 70px;
+  position: absolute;
+  bottom: 140px;
+  z-index: 2; /* Ensure text appears above overlay */
+}
+
+#video-text h1 {
+  font-size: 64px;
+}
+
+video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.bg-wave {
+  /* Set the dimensions of the background */
+  width: 100%; /* Adjust as needed */
+  height: 100vh; /* Adjust as needed */
+  min-height: 970px;
+  background-image: url("../assets/background/wave.svg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Or 'contain' based on your preference */
+  background-position: center; /* Or adjust based on your preference */
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.content-project {
+  max-width: 80%;
+  margin: 80px auto;
+}
+
+.card-grow {
+  position: relative;
+  box-sizing: border-box;
+  width: 196px;
+  height: 228px;
+  background: #fff;
+  border: 1px solid #dfdfdf;
+  border-radius: 17px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  font-weight: bolder;
+  overflow: hidden;
+}
+
+.card-grow .before {
+  color: #acacac;
+  font-size: 32px;
+  position: relative;
+  z-index: 1;
+  transition: color 0.5s, transform 0.5s; /* Add transition for color change */
+}
+
+.card-grow:hover .before {
+  color: #fff; /* Change color on hover */
+  transform: translateY(-65%);
+}
+
+.card-grow .after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.5s;
+  transform: translateY(100%);
+  color: #fff;
+  font-size: 0px;
+}
+
+.card-grow:hover .after {
+  transform: translateY(55%); /* Adjusted slide-up height */
+}
+
+.card-grow:hover .after p {
+  font-size: 10px;
+}
+
+.card-grow:hover .after a {
+  color: #fff;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.card-grow:hover {
+  border: none;
+  background: var(--color-primary);
+  transform: scale(1.25);
+  color: #fff;
+}
+
+.general-product {
+  /* width: 920px; */
+  max-width: 70%;
+  border-radius: 16px;
+  border: 1px solid #dfdfdf;
+  background: #fff;
+  margin-bottom: 200px;
+  display: block;
+}
+
+.general-product .content {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 20px 20px;
+}
+
+.general-product .content img {
+  border-radius: 12px;
+}
+
+.general-product .content h3 {
+  font-size: 30px;
+  margin: 34px 30px 0px;
+}
+
+.general-product .content p {
+  color: #717171;
+  margin: 10px 30px;
+}
+
+.bg-growth {
+  background-color: #fff;
+  padding-bottom: 100px;
+}
+
+.bg-growth .line {
+  margin-top: -250px;
+}
+
+.bg-biograph {
+  height: 752px;
+  background-color: #136695;
+  margin-bottom: 10px;
+}
+
+.bg-biograph .content {
+  margin: 80px 80px 0px;
+}
+
+.bg-biograph .role {
+  color: var(--color-secondary);
+  font-size: 20px;
+}
+
+.bg-biograph .luhut {
+  width: 88%;
+  margin-top: 72px;
+  margin-left: 77px;
+}
+
+.quote {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  margin-top: 52px;
+}
+
+.quote img {
+  margin-top: 4px;
+  height: 32px;
+  filter: brightness(100);
+}
+
+.quote p {
+  margin: 0px 20px 20px;
+  font-size: 19px;
+  color: #fff;
+}
+
+.footer-home {
+  max-width: 91%;
+  margin: 80px auto;
+  background-color: var(--color-primary);
+  height: 100%;
+  border-radius: 16px;
+  padding-bottom: 20px;
+}
+
+.footer-home .graph {
+  width: 100%; /* Adjust as needed */
+  height: 100%;
+  min-height: 400px;
+  background-image: url("../assets/background/graph.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; /* Or adjust based on your preference */
+  position: relative;
+  z-index: 1;
+  max-width: 90%;
+  margin: 30px auto;
+  border-radius: 15px;
+}
+
+.graph .content {
+  margin: 20px 50px;
+}
+
+.footer-home .content-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 55px;
+  margin-top: 40px;
+}
+
+.footer-home .content-flex p {
+  text-align: right;
+}
+
+.divider {
+  margin: 0px 55px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.footer-home .content-link {
+  padding: 40px 55px;
+}
+
+.content-link p {
+  text-align: right;
+}
+
+.bg-map {
+  background-color: #d4dadc;
+  position: relative; /* Ensure the map container is relatively positioned */
+}
+
+#mapid {
+  margin-top: 60px;
+  height: 600px;
+  z-index: 1;
+  background-color: transparent !important;
+  position: relative;
+}
+
+.leaflet-container {
+  background: none !important;
+}
+
+/* Hide Leaflet attribution */
+.leaflet-control-attribution {
+  display: none;
+}
+
+.leaflet-popup-close-button {
+  display: none;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: #fcfcfc;
+  border: 1px solid #dfdfdf; /* Set border color */
+  box-shadow: none !important; /* Remove box shadow */
+}
+
+.leaflet-popup-content-wrapper h3 {
+  font-size: 15px;
+}
+
+.leaflet-popup-content-wrapper p {
+  color: #717171;
+  margin-top: -2px;
+}
+
+.leaflet-popup-content-wrapper img {
+  margin-top: -3px;
+}
+
+.leaflet-popup-tip-container {
+  display: none; /* Hide the chevron */
+}
+
+#project-panel {
+  position: absolute;
+  top: 0px;
+  right: -400px; /* Start off-screen */
+  width: 400px;
+  height: 747px;
+  background-color: var(--color-primary);
+  padding: 10px;
+  transition: right 0.3s ease; /* Add transition for right property */
+  z-index: 2;
+}
+
+#project-panel.show {
+  right: -1px; /* Move panel into view */
+}
+
+#project-panel a {
+  cursor: pointer;
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+#project-panel div {
+  margin: 80px 30px;
+  color: #fff;
+}
+
+#project-panel h3 {
+  text-transform: uppercase;
+}
+
+#project-panel p {
+  font-size: 14px;
+}
+
+#project-panel .plink {
+  text-decoration: underline;
+  color: #fff;
+  text-align: left;
+  margin-left: 8px;
+}
+
+.pcontent {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 !important;
+}
+
+.picon {
+  margin-top: 5px;
+}

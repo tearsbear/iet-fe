@@ -1,0 +1,28 @@
+.bg-hero {
+  background-image: url("../assets/background/bg-project.webp");
+  /* Set a specific height */
+  min-height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.bg-hero h1 {
+  padding: 0px 70px;
+  position: absolute;
+  bottom: 140px;
+  z-index: 2; /* Ensure text appears above overlay */
+  font-size: 64px;
+}
+
+.content {
+  margin: 80px 70px;
+  height: 500px;
+}
+
+.content p {
+  font-size: 16px;
+}
