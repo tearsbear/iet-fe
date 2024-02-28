@@ -3,21 +3,7 @@
     <div class="graph">
         <br>
         <div class="content">
-            <h1 class="font-inter-bold text-light">Lorem Ipsum</h1>
-            <div class="row mt-5">
-                <div class="col">
-                    <p class="text-light font-inter-regular">Lorem Ipsum</p>
-                    <h3 class="text-light font-inter-semi mt-n1">256.142 ha</h3>
-                </div>
-                <div class="col">
-                    <p class="text-light font-inter-regular">Lorem Ipsum</p>
-                    <h3 class="text-light font-inter-semi mt-n1">256.142 ha</h3>
-                </div>
-                <div class="col">
-                    <p class="text-light font-inter-regular">Lorem Ipsum</p>
-                    <h3 class="text-light font-inter-semi mt-n1">256.142 ha</h3>
-                </div>
-            </div>
+            <h2 class="font-inter-bold text-light">Indonesia Energy Transition in Number</h2>
             <div class="row mt-5">
                 <div class="col">
                     <p class="text-light font-inter-regular">Lorem Ipsum</p>

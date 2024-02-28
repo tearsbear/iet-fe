@@ -215,7 +215,7 @@ video {
 .footer-home .graph {
   width: 100%; /* Adjust as needed */
   height: 100%;
-  min-height: 400px;
+  min-height: 245px;
   background-image: url("../assets/background/graph.svg");
   background-size: cover;
   background-repeat: no-repeat;

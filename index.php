@@ -18,6 +18,9 @@
     <?php if(isset($_GET['page']) && $_GET['page'] === 'home'): ?>
     <link rel="stylesheet" href="css/leaflet.css" />
     <?php endif; ?>
+    <?php if(isset($_GET['page']) && $_GET['page'] === 'register'): ?>
+    <link rel="stylesheet" href="css/stepper.css" />
+    <?php endif; ?>
     <link rel="stylesheet" href="css/page-<?php echo (isset($_GET['page'])) ? $_GET['page'] : 'home'; ?>.css">
 </head>
 
@@ -30,6 +33,9 @@
     <script type="text/javascript" src="js/default.js"></script>
     <?php if(isset($_GET['page']) && $_GET['page'] === 'home'): ?>
     <script type="text/javascript" src="js/leaflet.js"></script>
+    <?php endif; ?>
+    <?php if(isset($_GET['page']) && $_GET['page'] === 'register'): ?>
+    <script type="text/javascript" src="js/stepper.js"></script>
     <?php endif; ?>
     <script type="text/javascript" src="js/page-<?php echo (isset($_GET['page'])) ? $_GET['page'] : 'home'; ?>.js">
     </script>

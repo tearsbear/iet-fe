@@ -22,6 +22,14 @@ switch($page){
   include "views/login.php"; // load file news.php yang ada di folder views
   break;
 
+  case 'forgot-pass': // $page == forgot-pass (jika isi dari $page adalah forgot-pass)
+  include "views/forgot-pass.php"; // load file news.php yang ada di folder views
+  break;
+  
+  case 'register': // $page == register (jika isi dari $page adalah register)
+  include "views/register.php"; // load file news.php yang ada di folder views
+  break;
+
   default: // Ini untuk set default jika isi dari $page tidak ada pada kondisi diatas
   include "views/home.php";
 }

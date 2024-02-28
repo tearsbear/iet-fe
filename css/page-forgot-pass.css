@@ -27,7 +27,7 @@ body {
 
 .login-form {
   max-width: 55%;
-  margin: 20px auto;
+  margin: 120px auto;
 }
 
 .login-form .back-btn {
@@ -71,12 +71,4 @@ body {
   background-color: #fff !important;
   border: 2px solid var(--color-primary);
   color: var(--color-primary) !important;
-}
-
-.password-toggle-container {
-  border-radius: 8px;
-}
-
-input[type="checkbox"] {
-  accent-color: var(--color-primary);
 }
