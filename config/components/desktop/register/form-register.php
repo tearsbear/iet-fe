@@ -52,5 +52,6 @@
       <a href="#" onclick="stepper1.previous()"
           class="btn color1 font-inter-medium mt-3 mr-1 btn-prev-register">PREVIOUS</a>
 
-      <a href="#" class="btn btn-lg bg-color1 text-light font-inter-medium mt-3 btn-next-register">NEXT</a>
+      <a href="#" onclick="stepper1.next()"
+          class="btn btn-lg bg-color1 text-light font-inter-medium mt-3 btn-next-register">NEXT</a>
   </center>

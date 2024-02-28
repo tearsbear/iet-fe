@@ -42,7 +42,6 @@ $(document).ready(function () {
 
     $("#accRole").text(role);
     $(".role-text").show();
-    $(".btn-next-role").removeClass("disabled");
 
     if (role == "Project Owner") {
       $(".form-category").show();
@@ -86,61 +85,6 @@ $(document).ready(function () {
     } else {
       // No file selected
       console.log("No file selected.");
-    }
-  });
-
-  $(".btn-next-register").on("click", function () {
-    // Retrieve all input values
-    var fullName = $("#inputFullName").val().trim();
-    var companyName = $("#inputCompanyName").val().trim();
-    var userName = $("#inputUsername").val().trim();
-    var email = $("#exampleInputEmail1").val().trim();
-    var file = file_input;
-
-    if (role == "Project Owner") {
-      var category = $("#inputCategory").val();
-      if (
-        fullName === "" ||
-        companyName === "" ||
-        userName === "" ||
-        email === "" ||
-        file === null ||
-        category === null
-      ) {
-        // Check if any input is empty
-        alert("Please fill in all required fields.");
-        return; // Exit the function if any input is empty
-      }
-    } else {
-      if (
-        fullName === "" ||
-        companyName === "" ||
-        userName === "" ||
-        email === "" ||
-        file === null
-      ) {
-        // Check if any input is empty
-        alert("Please fill in all required fields.");
-        return; // Exit the function if any input is empty
-      }
-    }
-
-    // If all inputs are filled, proceed to the next step
-    stepper1.next();
-  });
-
-  // Select the checkbox and the button
-  var $checkbox = $("#exampleCheck1");
-  var $nextButton = $(".btn-next-submit");
-
-  // Add change event listener to the checkbox
-  $checkbox.on("change", function () {
-    // If the checkbox is checked, enable the button
-    if ($checkbox.prop("checked")) {
-      $nextButton.removeClass("disabled");
-    } else {
-      // If the checkbox is unchecked, disable the button
-      $nextButton.addClass("disabled");
     }
   });
 

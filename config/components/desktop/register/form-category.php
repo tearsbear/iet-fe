@@ -26,6 +26,6 @@
 
     <center>
         <a href="#" onclick="stepper1.next()" style="width: 485px"
-            class="btn btn-lg btn-block bg-color1 text-light font-inter-medium mt-4 btn-next-role disabled">NEXT</a>
+            class="btn btn-lg btn-block bg-color1 text-light font-inter-medium mt-4 btn-next-role">NEXT</a>
     </center>
 </div>

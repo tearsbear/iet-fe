@@ -17,6 +17,6 @@
           <a href="#" onclick="stepper1.previous()"
               class="btn color1 font-inter-medium mt-3 mr-1 btn-prev-register">PREVIOUS</a>
 
-          <a href="#" class="btn bg-color1 text-light font-inter-medium mt-3 btn-next-submit disabled">SUBMIT</a>
+          <a href="#" class="btn bg-color1 text-light font-inter-medium mt-3 btn-next-submit">SUBMIT</a>
       </center>
   </div>
