@@ -5,7 +5,7 @@
         <source src="assets/video/home-hero.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <div id="video-text">
+    <div id="video-text" data-aos="fade-right" data-aos-duration="1300">
         <h1 class="font-inter-extrabold text-light">
             INDONESIA ENERGY TRANSITION TOWARDS A SUSTAINABLE FUTURE
         </h1>

@@ -83,7 +83,7 @@ $(document).ready(function () {
                     </div>
                     <div class="after">
                         <p class="font-inter-regular card-desc">${projects[ip].description}</p>
-                        <a href="${projects[ip].link}" class="font-inter-regular card-link">more info here</a>
+                        <a href="index.php?page=project" class="font-inter-regular card-link">more info here</a>
                     </div>
                 </div>
             </div>`;
@@ -217,7 +217,7 @@ $(document).ready(function () {
         marker.bindPopup(
           `<h3 class="font-inter-medium text-primary">${markerData.capital}</h3>
       <p class="font-inter-regular">
-          <img src="assets/icons/file.svg" alt=""> 55 projects
+          <img src="assets/icons/file.svg" alt=""> ${markerData.projects.length} projects
       </p>`
         );
       });

@@ -337,7 +337,7 @@ video {
   right: -1px; /* Move panel into view */
 }
 
-#project-panel a {
+#close-panel-btn {
   cursor: pointer;
   float: right;
   margin-right: 30px;

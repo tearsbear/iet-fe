@@ -17,13 +17,16 @@
         <div>
             <h3 class="ptitle font-inter-bold"></h3>
             <p class="font-inter-regular">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua.
+                List of Projects:
             </p>
 
             <div id="project-list" style="margin: 0; text-align: left;">
                 <!-- Project items will be dynamically added here -->
             </div>
+            <center>
+                <a class="btn btn-block bg-white font-inter-medium color1 mt-4" href="index.php?page=project"
+                    role="button">See more</a>
+            </center>
         </div>
     </div>
 </div>

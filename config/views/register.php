@@ -59,9 +59,9 @@
                     </div>
                 </div>
             </div>
-
-
-
         </div>
     </div>
 </div>
+
+<!-- form success -->
+<?php include("config/components/desktop/register/alert-modal.php");?>

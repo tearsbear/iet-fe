@@ -1,4 +1,4 @@
-<?php include("config/components/desktop/project/bg-hero.php");?>
+<?php include("config/components/desktop/about/bg-hero.php");?>
 
 <div class="content">
     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">

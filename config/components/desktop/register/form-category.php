@@ -6,16 +6,17 @@
     </p>
 
     <center>
-        <a href="#" data-role="Project Owner" class="btn btn-outline-secondary font-inter-regular btn-role">Project
-            Owner</a>
-        <a href="#" data-role="Financier" class="btn btn-outline-secondary font-inter-regular btn-role">
-            Financier</a>
-        <a href="#" data-role="Developer" class="btn btn-outline-secondary font-inter-regular btn-role">
-            Developer</a>
-        <a href="#" data-role="Others" class="btn btn-outline-secondary font-inter-regular btn-role">
-            Others</a>
 
+        <a href="#" data-role="Project Owner" class="btn btn-outline-secondary font-inter-regular btn-role mb-3">Project
+            Owner</a>
+        <a href="#" data-role="Financier" class="btn btn-outline-secondary font-inter-regular btn-role mb-3">
+            Financier</a>
+        <a href="#" data-role="Developer" class="btn btn-outline-secondary font-inter-regular btn-role mb-3">
+            Developer</a>
+        <a href="#" data-role="Others" class="btn btn-outline-secondary font-inter-regular btn-role mb-3">
+            Others</a>
     </center>
+
 
     <p class="font-inter-light text-primary ml-4 mt-4 role-text" style="display: none"><b id="accRole"
             class="font-inter-semi">Project

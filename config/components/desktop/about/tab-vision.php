@@ -9,16 +9,50 @@
 
     <div class="row mt-4">
         <div class="col mb-4">
-            <img src="assets/mission/1.svg" alt="">
+            <div class="card-mission">
+                <div class="content">
+                    <span class="badge bg-color1 text-light font-inter-bold">01</span>
+                    <p class="font-inter-regular text-primary mt-3"><b class="font-inter-semi">Facilitating Seamless
+                            Collaboration</b> to streamline
+                        the
+                        interaction between financiers, project
+                        owners and developers, providing a platform where they can effortlessly connect and collaborate
+                        on projects with utmost efficiency.</p>
+                </div>
+            </div>
         </div>
         <div class="col mb-4">
-            <img src="assets/mission/2.svg" alt="">
+            <div class="card-mission">
+                <div class="content">
+                    <span class="badge bg-color1 text-light font-inter-bold">02</span>
+                    <p class="font-inter-regular text-primary mt-3"><b class="font-inter-semi">Reducing Search Costs</b>
+                        to eliminate the barriers of search costs by offering comprehensive resources and tools that
+                        enable financiers, project owners, and developers to swiftly identify opportunities and partners
+                        aligned with their goals and vision.</p>
+                </div>
+            </div>
         </div>
         <div class="col">
-            <img src="assets/mission/3.svg" alt="">
+            <div class="card-mission">
+                <div class="content">
+                    <span class="badge bg-color1 text-light font-inter-bold">03</span>
+                    <p class="font-inter-regular text-primary mt-3"><b class="font-inter-semi">Optimizing
+                            Coordination</b> to optimize coordination among stakeholders by offering tailored solutions
+                        and support services that foster synergy, enhance communication, and ensure the smooth execution
+                        of infrastructure and development projects.</p>
+                </div>
+            </div>
         </div>
         <div class="col">
-            <img src="assets/mission/4.svg" alt="">
+            <div class="card-mission">
+                <div class="content">
+                    <span class="badge bg-color1 text-light font-inter-bold">04</span>
+                    <p class="font-inter-regular text-primary mt-3"><b class="font-inter-semi">Empowering Global
+                            Development</b> to provide access to vital resources, foster cross-border partnerships, and
+                        advocate sustainable practices that create lasting positive impacts on communities and the
+                        environment.</p>
+                </div>
+            </div>
         </div>
     </div>
 

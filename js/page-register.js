@@ -132,10 +132,6 @@ $(document).ready(function () {
   });
 
   $(".btn-next-submit").on("click", function () {
-    alert("thanks");
-
-    setTimeout(() => {
-      window.location.href = "index.php?page=login";
-    }, 500);
+    $("#formSuccess").modal("show");
   });
 });

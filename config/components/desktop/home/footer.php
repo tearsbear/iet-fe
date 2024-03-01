@@ -43,10 +43,10 @@
                 </a>
             </div>
             <div class="col mt-4" style="text-align: center">
-                <a href="#" class="text-light font-inter-light mr-3">Home</a>
-                <a href="#" class="text-light font-inter-light mr-3">About IET</a>
-                <a href="#" class="text-light font-inter-light mr-3">News & Events</a>
-                <a href="#" class="text-light font-inter-light mr-3">Projects</a>
+                <a href="index.php?page=home" class="text-light font-inter-light mr-3">Home</a>
+                <a href="index.php?page=about" class="text-light font-inter-light mr-3">About IET</a>
+                <a href="index.php?page=news" class="text-light font-inter-light mr-3">News & Events</a>
+                <a href="index.php?page=project" class="text-light font-inter-light mr-3">Projects</a>
             </div>
             <div class="col">
                 <p class="font-inter-light text-light">
