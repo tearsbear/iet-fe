@@ -16,7 +16,7 @@
                 </li>
                 <li class="nav-item nav-space">
                     <a class="nav-link link-item <?php echo (isset($_GET['page']) && $_GET['page'] == 'about') ? 'nav-active' : 'nav-unactive'; ?>"
-                        href="index.php?page=about">About Us</a>
+                        href="index.php?page=about">About IET</a>
                 </li>
                 <li class="nav-item nav-space">
                     <a class="nav-link link-item <?php echo (isset($_GET['page']) && $_GET['page'] == 'news') ? 'nav-active' : 'nav-unactive'; ?>"

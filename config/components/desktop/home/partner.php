@@ -1,6 +1,8 @@
 <div class="partner">
+    <br>
     <center>
-        <!-- <h1 class="color1 font-inter-bold mt-5">Our Partners</h1> -->
-        <img src="assets/image/partner.svg" class="mt-5" alt="">
+        <h2 class="color1 font-inter-bold mt-5"> Supporting Partners</h2>
     </center>
+    <div class="row content-partner">
+    </div>
 </div>

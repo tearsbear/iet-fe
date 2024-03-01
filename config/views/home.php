@@ -4,28 +4,6 @@
 <!-- Projects -->
 <?php include("config/components/desktop/home/project.php");?>
 
-<!-- <div class="bg-color1">
-    
-</div> -->
-
-<!-- <div class="bg-map">
-    <div id="map">
-        <div class="marker" data-toggle="tooltip" data-placement="top" title="Details about marker"
-            style="left: 100px; top: 150px;"></div>
-        <div class="marker" data-toggle="tooltip" data-placement="top" title="Details about marker"
-            style="left: 200px; top: 200px;"></div>
-    </div>
-
-    <div class="panel" id="panel">
-        <div class="panel-heading">
-            <h3 class="panel-title" id="panel-title">panel</h3>
-        </div>
-        <div class="panel-body" id="panel-content">
-            <p>hello</p>
-        </div>
-    </div>
-</div> -->
-
 <div class="bg-map">
     <br>
     <h2 class="text-center color1 font-inter-bold mt-4">PROJECT DISTRIBUTION MAP</h2>

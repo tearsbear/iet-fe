@@ -18,7 +18,7 @@
               <label for="inputUsername" class="font-inter-semi color1">Username <b
                       class="text-danger ml-0">*</b></label>
               <input name="username" type="text" class="form-control font-inter-regular shadow-none"
-                  placeholder="input username" id="inputUsername">
+                  placeholder="username" id="inputUsername" readonly>
           </div>
           <div class="form-group">
               <label for="exampleInputEmail1" class="font-inter-semi color1">Corporate Email <b

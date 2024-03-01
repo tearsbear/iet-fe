@@ -1,52 +1,96 @@
 $(document).ready(function () {
+  AOS.init();
+
   let projects = [
     {
       id: 1,
       name: "PLN",
-      description: "The projects are planned <br> under PLN Group",
+      description: "The projects are owned by <br> PLN based on RUPTL",
       link: "#",
     },
     {
       id: 2,
       name: "IPP",
-      description: "The projects are planned <br> under IPP",
+      description: "The projects are owned by <br> IPP based on RUPTL",
       link: "#",
     },
     {
       id: 3,
       name: "PRIVATE <br> SECTOR",
-      description: "The projects are planned <br> under PRIVATE SECTOR",
+      description: "The projects are owned by <br> PRIVATE SECTOR beyond RUPTL",
       link: "#",
     },
     {
       id: 4,
       name: "ESDM",
-      description: "The projects are planned <br> under ESDM",
+      description: "The projects are <br> under MEMR",
       link: "#",
     },
     {
       id: 5,
       name: "COMMUNITY BASED",
-      description: "The projects are planned <br> under COMMUNITY BASED",
+      description: "The projects are initiated by <br> Community",
       link: "#",
+    },
+  ];
+
+  let partners = [
+    {
+      link: "https://maritim.go.id/",
+      image: "1.svg",
+    },
+    {
+      link: "https://www.ekon.go.id/",
+      image: "2.svg",
+    },
+    {
+      link: "https://www.esdm.go.id/",
+      image: "3.svg",
+    },
+    {
+      link: "https://www.kemenkeu.go.id/",
+      image: "4.svg",
+    },
+    {
+      link: "https://www.bappenas.go.id/",
+      image: "5.svg",
+    },
+    {
+      link: "https://www.bumn.go.id/",
+      image: "6.svg",
+    },
+    {
+      link: "https://www.menlhk.go.id/",
+      image: "7.svg",
+    },
+    {
+      link: "https://www.pln.co.id/",
+      image: "8.svg",
+    },
+    {
+      link: "https://ptsmi.co.id/",
+      image: "9.svg",
     },
   ];
 
   function getProject() {
     for (let ip = 0; ip < projects.length; ip++) {
-      let item = `<div class="col">
-                  <div class="shadow-sm card-grow">
-                      <div class="before title-${ip} font-inter-extrabold">
-                          ${projects[ip].name}
-                      </div>
-                      <div class="after">
-                          <p class="font-inter-regular card-desc">${projects[ip].description}</p>
-                          <a href="${projects[ip].link}" class="font-inter-regular card-link">more info here</a>
-                      </div>
-                  </div>
-              </div>`;
+      let delay = ip * 100; // Adjust the delay for each card
+      let item = `<div class="col anchor-${ip}" data-aos="fade-up" data-aos-duration="1300" data-aos-anchor=".anchor-${ip}" data-aos-delay="${delay}">
+                <div class="shadow-sm card-grow">
+                    <div class="before title-${ip} font-inter-extrabold">
+                        ${projects[ip].name}
+                    </div>
+                    <div class="after">
+                        <p class="font-inter-regular card-desc">${projects[ip].description}</p>
+                        <a href="${projects[ip].link}" class="font-inter-regular card-link">more info here</a>
+                    </div>
+                </div>
+            </div>`;
 
       $(item).appendTo(".content-project");
+
+      // Additional customization if needed
       if (projects[ip].id == 3) {
         $(`.title-${ip}`).css("font-size", "25px");
       } else if (projects[ip].id == 5) {
@@ -55,7 +99,19 @@ $(document).ready(function () {
     }
   }
 
+  function getPartner() {
+    for (let ir = 0; ir < partners.length; ir++) {
+      let item = `<div class="col">
+                    <a href="${partners[ir].link}" target="_blank">
+                        <img src="../iet/assets/partner/${partners[ir].image}" alt="">
+                    </a>
+                </div>`;
+      $(item).appendTo(".content-partner");
+    }
+  }
+
   getProject();
+  getPartner();
 
   // Define custom icon
   var defaultIcon = L.icon({

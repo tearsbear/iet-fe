@@ -19,10 +19,99 @@
 }
 
 .content {
-  margin: 80px 70px;
-  height: 500px;
+  margin: 80px 80px;
+  /* height: 500px; */
 }
 
 .content p {
   font-size: 16px;
+}
+
+.nav-pills .nav-link {
+  font-size: 14px;
+  text-transform: capitalize;
+  text-align: center; /* Center align the text */
+  border: none; /* Remove default border */
+  border-radius: 0; /* Remove default border radius */
+  width: 100%; /* Make the buttons fill the width */
+  margin-bottom: -2px; /* Adjust for the bottom border to prevent doubling up */
+}
+
+.nav-pills .nav-item {
+  flex: 1; /* Distribute items evenly */
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  font-weight: 700 !important;
+  font-family: "Inter", sans-serif;
+  background-color: transparent;
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-primary); /* Add bottom border to active tab */
+}
+
+.nav-pills .nav-link:not(.active) {
+  font-weight: 300 !important;
+  font-family: "Inter", sans-serif;
+  color: #c4c4c4;
+  border-bottom: 2px solid #dfdfdf; /* Add different bottom border color to inactive tabs on hover */
+}
+
+.nav-pills .nav-link:not(.active):hover {
+  color: var(--color-primary);
+  border-bottom: 2px solid var(--color-primary); /* Add different bottom border color to inactive tabs on hover */
+}
+
+.nav-pills .nav-link:focus {
+  outline: none; /* Remove outline on focus */
+}
+
+.content-about {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 80%;
+  margin: 60px auto 200px;
+}
+
+.content-about div {
+  margin: 120px 50px;
+}
+
+.content-vision {
+  margin: 80px 120px 200px;
+}
+
+.content-history {
+  margin: 80px auto 10px;
+}
+
+.row-people {
+  max-width: 80%;
+  margin: 80px 200px;
+}
+
+.row-people h5 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.bg-member {
+  /* Set the dimensions of the background */
+  width: auto; /* Adjust as needed */
+  height: 250px;
+  background-image: url("../assets/background/member.svg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Or 'contain' based on your preference */
+  background-position: center; /* Or adjust based on your preference */
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Take up the full height of the parent */
 }

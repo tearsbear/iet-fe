@@ -1,3 +1,9 @@
+// Reset scroll position to the top when the page loads
+window.onload = function () {
+  window.scrollTo(0, 0);
+};
+
+// Your existing script for navbar styling based on scroll position
 $(document).ready(function () {
   // Retrieve the last scroll position from local storage
   const lastScrollPosition = localStorage.getItem("lastScrollPosition");

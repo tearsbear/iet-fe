@@ -21,6 +21,7 @@
     <?php if(isset($_GET['page']) && $_GET['page'] === 'register'): ?>
     <link rel="stylesheet" href="css/stepper.css" />
     <?php endif; ?>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/page-<?php echo (isset($_GET['page'])) ? $_GET['page'] : 'home'; ?>.css">
 </head>
 
@@ -37,6 +38,7 @@
     <?php if(isset($_GET['page']) && $_GET['page'] === 'register'): ?>
     <script type="text/javascript" src="js/stepper.js"></script>
     <?php endif; ?>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script type="text/javascript" src="js/page-<?php echo (isset($_GET['page'])) ? $_GET['page'] : 'home'; ?>.js">
     </script>
 </body>

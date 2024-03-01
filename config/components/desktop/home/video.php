@@ -7,7 +7,8 @@
     </video>
     <div id="video-text">
         <h1 class="font-inter-extrabold text-light">
-            TRANSFORMATION OF <br> ENERGY FOR A <br> SUSTAINABLE TOMORROW
+            INDONESIA ENERGY TRANSITION TOWARDS A SUSTAINABLE FUTURE
         </h1>
+        <h4 class="text-light font-inter-regular mt-4">One-Stop Gateway and Epicentrum of Synergy</h4>
     </div>
 </div>
