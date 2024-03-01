@@ -162,6 +162,13 @@ body {
   cursor: pointer;
 }
 
+.file-placeholder-rec {
+  position: absolute;
+  margin: -40px 120px;
+  z-index: 1;
+  cursor: pointer;
+}
+
 .custom-select {
   height: 45px;
   border-radius: 8px;
@@ -172,11 +179,25 @@ body {
 }
 
 .card-terms {
-  height: 274px;
+  overflow-y: scroll;
+  max-height: 274px;
   border-radius: 8px;
   border: 1px solid #dfdfdf;
   background: #fff;
   padding: 13px 20px;
+}
+
+.card-terms p {
+  font-size: 13px;
+}
+
+.card-terms ul,
+.card-terms ol {
+  padding: 0 10px;
+}
+
+.card-terms li {
+  font-size: 13px;
 }
 
 .btn-next-submit {

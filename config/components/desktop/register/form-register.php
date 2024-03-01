@@ -27,7 +27,7 @@
                   placeholder="input corporate email" id="exampleInputEmail1" aria-describedby="emailHelp">
           </div>
           <div class="form-group">
-              <label for="inputFile" class="font-inter-semi color1">Upload File <b
+              <label for="inputFile" class="font-inter-semi color1">Upload ID Card <b
                       class="text-danger ml-0">*</b></label>
               <div class="input-group mb-2">
                   <div class="input-group-prepend">
@@ -38,14 +38,20 @@
               </div>
               <span class="file-placeholder font-inter-regular text-primary">Choose File</span>
           </div>
-          <div class="form-group form-category" style="display: none;">
-              <label for="inputCategory" class="font-inter-semi color1">Category <b
+
+          <div class="form-group">
+              <label for="inputFileRec" class="font-inter-semi color1">Upload Recommendation Letter <b
                       class="text-danger ml-0">*</b></label>
-              <select class="custom-select" id="inputCategory" required>
-                  <option selected disabled value="">input category</option>
-                  <option>Category 1</option>
-              </select>
+              <div class="input-group mb-2">
+                  <div class="input-group-prepend">
+                      <div class="input-group-text">Browse File</div>
+                  </div>
+                  <input type="file" name="fileinput" class="form-control font-inter-regular shadow-none"
+                      id="inputFileRec" placeholder="Choose file" style="color:transparent;">
+              </div>
+              <span class="file-placeholder-rec font-inter-regular text-primary">Choose File</span>
           </div>
+
       </form>
   </div>
   <center>

@@ -5,7 +5,8 @@
 
 
       <div class="card-terms">
-          <p class="font-inter-light">Terms condition here...</p>
+          <!-- tnc content -->
+          <?php include("config/components/desktop/register/tnc.php");?>
       </div>
 
       <div class="form-group form-check mt-3">
