@@ -11,9 +11,9 @@
             Owner</a>
         <a href="#" data-role="Financier" class="btn btn-outline-secondary font-inter-regular btn-role mb-3">
             Financier</a>
-        <a href="#" data-role="Developer" class="btn btn-outline-secondary font-inter-regular btn-role mb-3">
+        <a href="#" data-role="Developer" class="btn disabled btn-outline-secondary font-inter-regular btn-role mb-3">
             Developer</a>
-        <a href="#" data-role="Others" class="btn btn-outline-secondary font-inter-regular btn-role mb-3">
+        <a href="#" data-role="Others" class="btn disabled btn-outline-secondary font-inter-regular btn-role mb-3">
             Others</a>
     </center>
 

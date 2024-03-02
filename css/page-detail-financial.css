@@ -1,0 +1,30 @@
+.content {
+    margin: 80px 120px;
+    /* height: 500px; */
+}
+
+.keterangan {
+    color: grey;
+}
+.back-button {
+    padding-left: 55px;
+    padding-bottom: 20px;
+}
+
+.title-page {
+    padding-left: 70px;
+    padding-bottom: 20px;
+}
+.desTitle {
+    color: #c9c9c9;
+    font-size: 13px;
+}
+hr {
+    margin-top: 8px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+}
+
+.description {
+    margin: 0 80px;
+}

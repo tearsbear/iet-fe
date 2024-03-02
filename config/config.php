@@ -18,6 +18,22 @@ switch($page){
   include "views/project.php"; // load file news.php yang ada di folder views
   break;
 
+  case 'detail-pltb': // $page == detail-pltb (jika isi dari $page adalah detail pltb)
+  include "views/detail-pltb.php"; // load file detail-pltb.php yang ada di folder views
+  break;
+
+  case 'list-search': // $page == list-search (jika isi dari $page adalah list-search)
+  include "views/list-search.php"; // load file list-search.php yang ada di folder views
+  break;
+
+  case 'financial': // $page == financial (jika isi dari $page adalah financial)
+  include "views/financial.php"; // load file financial.php yang ada di folder views
+  break;
+
+  case 'detail-financial': // $page == detail-financial (jika isi dari $page adalah detail financial)
+  include "views/detail-financial.php"; // load file financial.php yang ada di folder views
+  break;
+
   case 'login': // $page == login (jika isi dari $page adalah login)
   include "views/login.php"; // load file news.php yang ada di folder views
   break;
