@@ -2,7 +2,7 @@
     <?php include("config/components/desktop/navbar/navbar.php");?>
     <div id="video-overlay"></div>
     <video autoplay loop muted>
-        <source src="assets/video/home-hero.mp4" type="video/mp4">
+        <source src="assets/video/home-video.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <div id="video-text" data-aos="fade-right" data-aos-duration="1300">

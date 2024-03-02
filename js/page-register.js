@@ -33,6 +33,7 @@ $(document).ready(function () {
 
   $(".btn-role").on("click", function () {
     role = $(this).attr("data-role");
+    let desc = $(this).attr("data-desc");
 
     if (!$(this).hasClass("active")) {
       $(".btn-role").removeClass("active");
@@ -42,6 +43,7 @@ $(document).ready(function () {
     }
 
     $("#accRole").text(role);
+    $("#descRole").text(desc);
     $(".role-text").show();
   });
 

@@ -29,20 +29,20 @@
         <thead>
             <tr class="color1 font-inter-regular">
                 <th scope="col">Project Name</th>
-                <th scope="col">Generator Type</th>
-                <th scope="col">Capacity</th>
-                <th scope="col">COD target</th>
-                <th scope="col">Developer</th>
+                <th scope="col">Project Description</th>
+                <th scope="col">Company Name</th>
+                <th scope="col">Technology</th>
+                <th scope="col">Project Location</th>
             </tr>
         </thead>
         <tbody>
             <tr class="text-muted font-inter-light">
-                <td>Lorem ipsum dolor sit amet</td>
+                <td>PLTB Tanah Laut</td>
                 <td style="max-width: 250px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor</td>
                 <td>Lorem ipsum</td>
-                <td>Lorem ipsum</td>
-                <td>Lorem ipsum</td>
+                <td>Wind Power Plant</td>
+                <td>South Kalimantan</td>
             </tr>
 
         </tbody>

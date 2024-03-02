@@ -1,5 +1,5 @@
 .bg-hero {
-  background-image: url("../assets/background/bg-about.webp");
+  background-image: url("../assets/background/bg-about.png");
   /* Set a specific height */
   min-height: 100vh;
   /* Create the parallax scrolling effect */
@@ -74,7 +74,12 @@
 }
 
 .content-about div {
-  margin: 120px 50px;
+  margin: 0px 50px;
+}
+
+.content-about p {
+  line-height: 32px;
+  font-size: 19px;
 }
 
 .content-vision {
@@ -159,35 +164,40 @@
   font-size: 25px;
 }
 
-.bg-history {
-  /* Set the dimensions of the background */
-  width: 100%; /* Adjust as needed */
-  height: 100vh; /* Adjust as needed */
-  /* min-height: 970px; */
-  background-image: url("../assets/background/history.png");
-  background-repeat: no-repeat;
-  background-size: cover; /* Or 'contain' based on your preference */
-  background-position: center; /* Or adjust based on your preference */
-  position: relative;
-  z-index: 1;
-  display: flex; /* Add flexbox */
-  justify-content: center; /* Horizontal centering */
-  align-items: center; /* Vertical centering */
-  margin-bottom: 100px;
-}
-
 .bg-history .content {
-  color: #fff;
-  text-align: center;
+  text-align: left;
 }
 
 .bg-history .content h1 {
-  text-align: center;
+  text-align: left;
   font-size: 34px;
 }
 
 .bg-history .content p {
   margin-top: 40px;
-  max-width: 900px;
   text-align: left;
+}
+
+/* media query desktop */
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .nav-space {
+    margin-right: 2px;
+  }
+
+  .bg-hero h1 {
+    bottom: 65px;
+    font-size: 46px;
+  }
+
+  .nav-pills .nav-link {
+    font-size: 7px;
+  }
+
+  .bg-hero .content {
+    margin: 80px 22px;
+  }
 }

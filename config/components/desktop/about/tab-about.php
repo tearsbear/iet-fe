@@ -2,7 +2,7 @@
     <h3 class="font-inter-bold color1" style="margin-top: 80px">ABOUT IET</h3>
 </center>
 <div class="content-about">
-    <img src="assets/about/team.png" alt="">
+    <img src="assets/about/team.svg" alt="">
     <div>
         <p class="text-primary font-inter-regular mt-2">
             Indonesia Energy Transition Implementation Joint Office (IET) is part of the <a href="#pills-history"

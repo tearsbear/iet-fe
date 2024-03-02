@@ -1,7 +1,7 @@
 <?php include("config/components/desktop/news/bg-hero.php");?>
 
 <div class="highlight">
-    <img src="assets/news/cover.png" alt="">
+    <img src="assets/news/cover.svg" alt="">
     <div>
         <a href="#" class="font-inter-bold text-primary title">Donor Coordination Meeting and Launching of
             Socio-Economic Framework

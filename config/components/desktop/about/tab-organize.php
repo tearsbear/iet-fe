@@ -18,5 +18,5 @@
             of planning, projects, financing, law, and Environmental, Social, and Governance (ESG).
         </p>
     </div>
-    <img src="assets/image/organize.png" alt="">
+    <img src="assets/image/organize.svg" alt="">
 </div>

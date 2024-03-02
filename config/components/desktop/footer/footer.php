@@ -28,7 +28,7 @@
             </div>
             <div class="col">
                 <p class="font-inter-light text-light">
-                    Copyright © 2024 Indonesia Energy Transition <br>
+                    Copyright © 2024 Indonesia Energy Transition
                     Hak cipta dilindungi undang-undang
                 </p>
             </div>

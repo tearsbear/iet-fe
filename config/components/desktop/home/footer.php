@@ -7,11 +7,11 @@
             <div class="row mt-5">
                 <div class="col">
                     <p class="text-light font-inter-regular">Potential for New and Renewable Energy</p>
-                    <h3 class="text-light font-inter-semi mt-n1">442.171 <span>CO2/MW</span></h3>
+                    <h3 class="text-light font-inter-semi mt-n1">442.171 <span>MW</span></h3>
                 </div>
                 <div class="col">
                     <p class="text-light font-inter-regular">Total Renewable Energy Generation Capacity</p>
-                    <h3 class="text-light font-inter-semi mt-n1">9.322 <span>CO2/MW</span></h3>
+                    <h3 class="text-light font-inter-semi mt-n1">9.322 <span>MW</span></h3>
                 </div>
                 <div class="col">
                     <p class="text-light font-inter-regular">Emission Intensity</p>
@@ -49,8 +49,8 @@
                 <a href="index.php?page=project" class="text-light font-inter-light mr-3">Projects</a>
             </div>
             <div class="col">
-                <p class="font-inter-light text-light">
-                    Copyright © 2024 Indonesia Energy Transition <br>
+                <p class="font-inter-light text-light copyright">
+                    Copyright © 2024 Indonesia Energy Transition
                     Hak cipta dilindungi undang-undang
                 </p>
             </div>
