@@ -3,7 +3,9 @@
         <div class="col-6 bg-hero"></div>
         <div class="col-6">
             <div class="logo">
-                <img src="assets/logo.svg" alt="">
+                <a href="index.php?page=home">
+                    <img src="assets/logo.svg" alt="">
+                </a>
             </div>
             <!-- <div style="clear: both;"></div> -->
             <div id="stepper1" class="bs-stepper">
