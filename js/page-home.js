@@ -28,7 +28,7 @@ $(document).ready(function () {
     },
     {
       id: 5,
-      name: "COMMUNITY BASED",
+      name: "COMMUNITY<br/> BASED",
       description: "The projects are initiated by <br> Community",
       link: "#",
     },
@@ -76,7 +76,8 @@ $(document).ready(function () {
   function getProject() {
     for (let ip = 0; ip < projects.length; ip++) {
       let delay = ip * 100; // Adjust the delay for each card
-      let item = `<div class="col anchor-${ip}" data-aos="fade-up" data-aos-duration="1300" data-aos-anchor=".anchor-${ip}" data-aos-delay="${delay}">
+      let item =
+          `<div class="col-sm-4 col-md-2 anchor-${ip}" data-aos="fade-up" data-aos-duration="1300" data-aos-anchor=".anchor-${ip}" data-aos-delay="${delay}">
                 <div class="shadow-sm card-grow">
                     <div class="before title-${ip} font-inter-extrabold">
                         ${projects[ip].name}

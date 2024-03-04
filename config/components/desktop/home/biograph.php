@@ -1,7 +1,7 @@
 <div class="bg-biograph">
     <br>
     <div class="row">
-        <div class="col content">
+        <div class="col-md-4 content">
             <h1 class="text-light font-inter-bold">Luhut Binsar Pandjaitan</h1>
             <p class="font-inter-regular role">Indonesia's Coordinating Minister for <br> Maritime Affairs and
                 Investment</p>
@@ -25,8 +25,8 @@
                 </div>
             </div>
         </div>
-        <div class="col">
-            <img class="luhut" src="assets/image/luhut.png" alt="">
+        <div class="col-md-5">
+            <img class="img-profile" src="assets/image/luhut.png" alt="">
         </div>
     </div>
 </div>

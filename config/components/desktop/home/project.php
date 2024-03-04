@@ -5,7 +5,10 @@
         <h1 class="color1 font-inter-bold mt-5 stream-title">Project Streams</h1>
     </center>
 
-    <div class="content-project row"></div>
+    <div class="container testimonial-group">
+        <div class="content-project row text-center flex-nowrap justify-content-between">
+        </div>
+    </div>
 
     <center>
         <h1 class="color1 font-inter-bold financial-title" style="margin-top: 120px">Financial Products</h1>

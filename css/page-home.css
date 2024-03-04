@@ -186,7 +186,7 @@ video {
   font-size: 20px;
 }
 
-.bg-biograph .luhut {
+.bg-biograph .img-profile {
   width: 88%;
   margin-top: 72px;
   margin-left: 77px;
@@ -385,6 +385,107 @@ video {
 }
 
 /* media query desktop */
+@media only screen and (min-width: 300px) and (max-width: 1024px) {
+  .bg-biograph .img-profile {
+    margin-left: 29px;
+  }
+
+  /* The heart of the matter */
+  .testimonial-group > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .testimonial-group > .row > .col-sm-4 {
+    display: inline-block;
+    float: none;
+  }
+
+  /* Decorations */
+  /*.col-sm-4 { color: #fff; font-size: 48px; padding-bottom: 20px; padding-top: 18px; }*/
+  /*.col-sm-4:nth-child(3n+1) { background: #c69; }*/
+  /*.col-sm-4:nth-child(3n+2) { background: #9c6; }*/
+  /*.col-sm-4:nth-child(3n+3) { background: #69c; }*/
+
+  .container {
+    max-width: 100%;
+  }
+
+  .nav-space {
+    margin-right: 2px;
+  }
+
+  #video-text {
+    bottom: 50px;
+  }
+
+  #video-text h1 {
+    max-width: 800px;
+    font-size: 40px;
+  }
+
+  .bg-wave h1 {
+    font-size: 32px;
+  }
+
+  .content-project {
+    max-width: 93%;
+  }
+
+  .card-grow {
+    width: 152px;
+    height: 194px;
+  }
+
+  .title-2 {
+    font-size: 19px !important;
+  }
+
+  .title-4 {
+    font-size: 16px !important;
+  }
+
+  .bg-wave {
+    min-height: 800px;
+  }
+
+  .bg-biograph {
+    min-height: 1216px;
+  }
+
+  .bg-biograph .content {
+    margin: 42px 80px 0px;
+  }
+
+  .bg-biograph .content h1 {
+    font-size: 31px;
+  }
+
+  .bg-biograph .role {
+    font-size: 16px;
+  }
+
+  .quote p {
+    font-size: 13px;
+  }
+
+  .content-partner {
+    max-width: 75%;
+    margin: 75px auto 100px;
+  }
+
+  .content-partner img {
+    margin-bottom: 50px;
+  }
+
+  .footer-home .content-link {
+    padding: 40px 51px;
+  }
+
+  .footer-home .content-link .mr-3 {
+    margin-right: 22px;
+  }
+}
+
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
   .container {
     max-width: 100%;
@@ -429,7 +530,7 @@ video {
   }
 
   .bg-biograph {
-    height: 516px;
+    min-height: 516px;
   }
 
   .bg-biograph .content {
@@ -479,7 +580,7 @@ video {
     height: 554px;
   }
 
-  .bg-biograph .luhut {
+  .bg-biograph .img-profile {
     width: 73%;
     margin-top: 72px;
     margin-left: 169px;
@@ -532,7 +633,7 @@ video {
     font-size: 17px;
   }
 
-  .bg-biograph .luhut {
+  .bg-biograph .img-profile {
     width: 73%;
     margin-top: 72px;
     margin-left: 169px;
@@ -586,9 +687,9 @@ video {
     font-size: 17px;
   }
 
-  .bg-biograph .luhut {
-    width: 73%;
-    margin-top: 72px;
+  .bg-biograph .img-profile {
+    width: 62%;
+    margin-top: 118px;
     margin-left: 169px;
   }
 
@@ -627,7 +728,7 @@ video {
     font-size: 20px;
   }
 
-  .bg-biograph .luhut {
+  .bg-biograph .img-profile {
     width: 73%;
     margin-top: 72px;
     margin-left: 202px;
@@ -738,9 +839,9 @@ video {
     margin: 80px 167px 0px;
   }
 
-  .bg-biograph .luhut {
+  .bg-biograph .img-profile {
     width: 66%;
-    margin-top: 72px;
+    margin-top: 70px;
     margin-left: 373px;
   }
 
