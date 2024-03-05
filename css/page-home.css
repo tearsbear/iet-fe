@@ -600,6 +600,79 @@ video {
 }
 
 @media only screen and (min-width: 400px) and (max-width: 767px) {
+  .invis {
+    display: none;
+  }
+
+  .invisMobile {
+    display: block;
+  }
+
+  .footer-home .content-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+    margin-top: 40px;
+  }
+
+  .footer-home .content-flex p {
+    text-align: left;
+  }
+
+  .footer-home {
+    max-width: 91%;
+    margin: 80px auto;
+    background-color: var(--color-primary);
+    height: 100%;
+    min-height: 850px;
+    border-radius: 16px;
+    padding-bottom: 20px;
+  }
+
+  .footer-home .graph {
+    width: 100%; /* Adjust as needed */
+    height: 380px;
+    min-height: 380px;
+    background-image: url("../assets/background/graph.svg");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: revert; /* Or adjust based on your preference */
+    position: relative;
+    z-index: 1;
+    max-width: 90%;
+    margin: 30px auto;
+    border-radius: 15px;
+  }
+
+  .divider {
+    margin: 0px 5px;
+    height: 1px;
+    background-color: #fff;
+  }
+
+  .spacer {
+    margin-top: -10px;
+  }
+
+  .font-inter-light {
+    font-weight: 300 !important;
+    font-size: x-small !important;
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-bold {
+    font-weight: 700 !important;
+    font-size: large;
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-semi {
+    font-weight: 600 !important;
+    font-size: medium;
+    font-family: "Inter", sans-serif;
+  }
+
   #video-background {
     height: 400px;
     width: 100%;
@@ -708,7 +781,7 @@ video {
   }
 
   .footer-home .content-link {
-    padding: 40px 51px;
+    padding: 20px 5px;
   }
 
   .footer-home .content-link .mr-3 {
@@ -717,6 +790,7 @@ video {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+
   .bg-biograph .img-profile {
     margin-top: 540px;
     margin-left: 10px;
