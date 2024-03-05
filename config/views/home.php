@@ -9,7 +9,6 @@
     <h2 class="text-center color1 font-inter-bold mt-4">PROJECT DISTRIBUTION MAP</h2>
     <div id="mapid"></div>
 
-
     <div id="project-panel">
         <a id="close-panel-btn">
             <img src="assets/icons/close.svg" alt="">
@@ -30,7 +29,6 @@
         </div>
     </div>
 </div>
-
 
 <!-- Biograph -->
 <?php include("config/components/desktop/home/biograph.php");?>

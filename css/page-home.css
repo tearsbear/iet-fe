@@ -5,6 +5,21 @@
   height: 100vh;
 }
 
+.spacer {
+  margin-top: 40px;
+}
+
+.font-inter-extrabold {
+  font-weight: 800;
+  font-size: 50px;
+  font-family: "Inter", sans-serif;
+}
+
+.font-inter-regular {
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
 #video-overlay {
   position: absolute;
   top: 0;
@@ -384,10 +399,124 @@ video {
   font-size: 14px;
 }
 
+.invisMobile {
+  display: none;
+}
+
 /* media query desktop */
-@media only screen and (min-width: 300px) and (max-width: 1024px) {
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  .invis {
+    display: none;
+  }
+
+  .invisMobile {
+    display: block;
+  }
+
+  .footer-home .content-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+    margin-top: 40px;
+  }
+
+  .footer-home .content-flex p {
+    text-align: left;
+  }
+
+  .footer-home {
+    max-width: 91%;
+    margin: 80px auto;
+    background-color: var(--color-primary);
+    height: 100%;
+    min-height: 800px;
+    border-radius: 16px;
+    padding-bottom: 20px;
+  }
+
+  .footer-home .graph {
+    width: 100%; /* Adjust as needed */
+    height: 380px;
+    min-height: 380px;
+    background-image: url("../assets/background/graph.svg");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: revert; /* Or adjust based on your preference */
+    position: relative;
+    z-index: 1;
+    max-width: 90%;
+    margin: 30px auto;
+    border-radius: 15px;
+  }
+
+  .divider {
+    margin: 0px 5px;
+    height: 1px;
+    background-color: #fff;
+  }
+
+  .spacer {
+    margin-top: -10px;
+  }
+
+  .font-inter-light {
+    font-weight: 300 !important;
+    font-size: x-small !important;
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-bold {
+    font-weight: 700 !important;
+    font-size: large;
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-semi {
+    font-weight: 600 !important;
+    font-size: medium;
+    font-family: "Inter", sans-serif;
+  }
+
+  #video-background {
+    height: 400px;
+    width: 100%;
+  }
+
+  #video-text {
+    padding: 0 20px;
+  }
+
+  .font-inter-extrabold {
+    font-weight: 800;
+    font-size: small;
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-regular {
+    font-weight: 400;
+    font-size: small;
+    font-family: "Inter", sans-serif;
+  }
+
   .bg-biograph .img-profile {
     margin-left: 29px;
+  }
+
+  .bg-biograph {
+    min-height: 1101px;
+  }
+
+  .bg-biograph .content {
+    margin: 42px 20px 0px;
+  }
+
+  .bg-biograph .content h1 {
+    font-size: 31px;
+  }
+
+  .bg-biograph .role {
+    font-size: 16px;
   }
 
   /* The heart of the matter */
@@ -448,14 +577,115 @@ video {
     min-height: 800px;
   }
 
+  .quote p {
+    font-size: 13px;
+  }
+
+  .content-partner {
+    max-width: 75%;
+    margin: 75px auto 100px;
+  }
+
+  .content-partner img {
+    margin-bottom: 50px;
+  }
+
+  .footer-home .content-link {
+    padding: 20px 5px;
+  }
+
+  .footer-home .content-link .mr-3 {
+    margin-right: 22px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+  #video-background {
+    height: 400px;
+    width: 100%;
+  }
+
+  .bg-biograph .img-profile {
+    margin-left: 29px;
+  }
+
+  .font-inter-extrabold {
+    font-weight: 800;
+    font-size: small;
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-regular {
+    font-weight: 400;
+    font-size: small;
+    font-family: "Inter", sans-serif;
+  }
+
+  /* The heart of the matter */
+  .testimonial-group > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .testimonial-group > .row > .col-sm-4 {
+    display: inline-block;
+    float: none;
+  }
+
+  /* Decorations */
+  /*.col-sm-4 { color: #fff; font-size: 48px; padding-bottom: 20px; padding-top: 18px; }*/
+  /*.col-sm-4:nth-child(3n+1) { background: #c69; }*/
+  /*.col-sm-4:nth-child(3n+2) { background: #9c6; }*/
+  /*.col-sm-4:nth-child(3n+3) { background: #69c; }*/
+
+  .container {
+    max-width: 100%;
+  }
+
+  .nav-space {
+    margin-right: 2px;
+  }
+
+  #video-text {
+    bottom: 50px;
+  }
+
+  #video-text h1 {
+    max-width: 800px;
+    font-size: 40px;
+  }
+
+  .bg-wave h1 {
+    font-size: 32px;
+  }
+
+  .content-project {
+    max-width: 93%;
+  }
+
+  .card-grow {
+    width: 152px;
+    height: 194px;
+  }
+
+  .title-2 {
+    font-size: 19px !important;
+  }
+
+  .title-4 {
+    font-size: 16px !important;
+  }
+
+  .bg-wave {
+    max-height: 700px;
+  }
+
   .bg-biograph {
-    min-height: 1216px;
+    min-height: 1020px;
   }
 
   .bg-biograph .content {
-    margin: 42px 80px 0px;
+    margin: 42px 20px 0px;
   }
-
   .bg-biograph .content h1 {
     font-size: 31px;
   }
@@ -486,7 +716,130 @@ video {
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .bg-biograph .img-profile {
+    margin-top: 540px;
+    margin-left: 10px;
+    width: 100%;
+  }
+
+  .bg-biograph .content {
+    margin: 42px 10px 0px;
+  }
+
+  .bg-biograph {
+    min-height: 916px;
+  }
+
+  .bg-biograph .content {
+    margin: 42px 80px 0px;
+  }
+
+  .bg-biograph .content h1 {
+    font-size: 31px;
+  }
+
+  .bg-biograph .role {
+    font-size: 16px;
+  }
+
+  /* The heart of the matter */
+  .testimonial-group > .row {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .testimonial-group > .row > .col-sm-4 {
+    display: inline-block;
+    float: none;
+  }
+
+  /* Decorations */
+  /*.col-sm-4 { color: #fff; font-size: 48px; padding-bottom: 20px; padding-top: 18px; }*/
+  /*.col-sm-4:nth-child(3n+1) { background: #c69; }*/
+  /*.col-sm-4:nth-child(3n+2) { background: #9c6; }*/
+  /*.col-sm-4:nth-child(3n+3) { background: #69c; }*/
+
+  .container {
+    max-width: 100%;
+  }
+
+  .nav-space {
+    margin-right: 2px;
+  }
+
+  #video-text {
+    bottom: 50px;
+  }
+
+  #video-text h1 {
+    max-width: 800px;
+    font-size: 40px;
+  }
+
+  .bg-wave h1 {
+    font-size: 32px;
+  }
+
+  .content-project {
+    max-width: 93%;
+  }
+
+  .card-grow {
+    width: 152px;
+    height: 194px;
+  }
+
+  .title-2 {
+    font-size: 19px !important;
+  }
+
+  .title-4 {
+    font-size: 16px !important;
+  }
+
+  .bg-wave {
+    min-height: 800px;
+  }
+
+  .quote p {
+    font-size: 13px;
+  }
+
+  .content-partner {
+    max-width: 75%;
+    margin: 75px auto 100px;
+  }
+
+  .content-partner img {
+    margin-bottom: 50px;
+  }
+
+  .footer-home .content-link {
+    padding: 40px 51px;
+  }
+
+  .footer-home .content-link .mr-3 {
+    margin-right: 22px;
+  }
+}
+
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .bg-biograph .img-profile {
+    width: 73%;
+    margin-top: 372px;
+    margin-left: 169px;
+  }
+
+  .font-inter-extrabold {
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-regular {
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+  }
+
   .container {
     max-width: 100%;
   }
@@ -530,7 +883,7 @@ video {
   }
 
   .bg-biograph {
-    min-height: 516px;
+    min-height: 416px;
   }
 
   .bg-biograph .content {
@@ -568,6 +921,16 @@ video {
 }
 
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
+  .font-inter-extrabold {
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-regular {
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+  }
+
   .nav-space {
     margin-right: 32px;
   }
@@ -592,6 +955,16 @@ video {
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1470px) {
+  .font-inter-extrabold {
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-regular {
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+  }
+
   .nav-space {
     margin-right: 32px;
   }
@@ -650,6 +1023,17 @@ video {
 }
 
 @media only screen and (min-width: 1470px) and (max-width: 1710px) {
+  .font-inter-extrabold {
+    font-weight: 800;
+    /*font-size: 50px;*/
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-regular {
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+  }
+
   .nav-space {
     margin-right: 32px;
   }
@@ -699,6 +1083,16 @@ video {
 }
 
 @media only screen and (min-width: 1710px) and (max-width: 2560px) {
+  .font-inter-extrabold {
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-regular {
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+  }
+
   .content-project {
     max-width: 80%;
   }
@@ -740,6 +1134,16 @@ video {
 }
 
 @media only screen and (min-width: 2560px) {
+  .font-inter-extrabold {
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-regular {
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+  }
+
   .icon-search {
     right: 186px;
   }
