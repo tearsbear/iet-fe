@@ -69,8 +69,12 @@
 .content-about {
   display: flex;
   justify-content: flex-start;
-  max-width: 80%;
-  margin: 60px auto 200px;
+  max-width: 100%;
+  margin: 60px 10px;
+}
+
+.content-about img {
+  width: 510px;
 }
 
 .content-about div {
@@ -176,6 +180,334 @@
 .bg-history .content p {
   margin-top: 40px;
   text-align: left;
+}
+
+/* footer */
+.displayHome {
+  display: none;
+}
+
+.invisMobile {
+  display: none;
+}
+
+.footer-home .copyright {
+  font-size: 14px;
+}
+
+
+.footer-home {
+  max-width: 91%;
+  margin: 80px auto;
+  background-color: var(--color-primary);
+  height: 100%;
+  border-radius: 16px;
+  padding-bottom: 20px;
+}
+
+.footer-home .graph {
+  width: 100%; /* Adjust as needed */
+  height: 100%;
+  min-height: 290px;
+  background-image: url("../assets/background/graph.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; /* Or adjust based on your preference */
+  position: relative;
+  z-index: 1;
+  max-width: 90%;
+  margin: 30px auto;
+  border-radius: 15px;
+}
+
+.graph .content {
+  margin: 20px 50px;
+}
+
+.graph .content p {
+  max-width: 200px;
+}
+
+.graph .content span {
+  font-size: 15px;
+}
+
+.footer-home .content-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 55px;
+  margin-top: 40px;
+}
+
+.footer-home .content-flex p {
+  text-align: right;
+}
+
+.divider {
+  margin: 0px 55px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.footer-home .content-link {
+  padding: 40px 55px;
+}
+
+/* media query mobile */
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  .content-about img {
+    width: 310px;
+  }
+
+  .content-about {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+    margin: 5px;
+  }
+
+  .content-about div {
+    margin: 0px 5px;
+  }
+
+  .content-about p {
+    line-height: 32px;
+    font-size: 12px;
+  }
+
+  .bg-hero {
+    background-image: url("../assets/background/bg-about.png");
+    /* Set a specific height */
+    min-height: 400px;
+    width: 100%;
+    background-attachment: scroll, local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   /* Create the parallax scrolling effect */
+  }
+
+  .bg-hero h1 {
+    position: absolute;
+    bottom: 410px !important;
+    font-weight: 800;
+    font-size: medium;
+    font-family: "Inter", sans-serif;
+  }
+
+  .invis {
+    display: none;
+  }
+
+  .invisMobile {
+    display: block;
+  }
+
+  .footer-home .content-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+    margin-top: 40px;
+  }
+
+  .footer-home .content-flex p {
+    text-align: left;
+  }
+
+  .footer-home {
+    max-width: 91%;
+    margin: 80px auto;
+    background-color: var(--color-primary);
+    height: 100%;
+    min-height: 270px;
+    border-radius: 16px;
+    padding-bottom: 20px;
+  }
+
+  .footer-home .graph {
+    width: 100%; /* Adjust as needed */
+    height: 270px;
+    min-height: 270px;
+    background-image: none;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: revert; /* Or adjust based on your preference */
+    position: relative;
+    z-index: 1;
+    max-width: 90%;
+    margin: 30px auto;
+    border-radius: 15px;
+  }
+
+  .divider {
+    margin: 0px 5px;
+    height: 1px;
+    background-color: #fff;
+  }
+
+  .spacer {
+    margin-top: -10px;
+  }
+
+  .font-inter-light {
+    font-weight: 300 !important;
+    font-size: x-small !important;
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-bold {
+    font-weight: 700 !important;
+    font-size: large;
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-semi {
+    font-weight: 600 !important;
+    font-size: small;
+    font-family: "Inter", sans-serif;
+  }
+
+  .footer-home .content-link {
+    padding: 20px 5px;
+  }
+
+  .footer-home .content-link .mr-3 {
+    margin-right: 22px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+  .content-about img {
+    width: 350px;
+  }
+
+  .content-about {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+    margin: 5px;
+  }
+
+  .content-about div {
+    margin: 0px 5px;
+  }
+
+  .content-about p {
+    line-height: 32px;
+    font-size: 12px;
+  }
+
+  .bg-hero {
+    background-image: url("../assets/background/bg-about.png");
+    /* Set a specific height */
+    min-height: 400px;
+    width: 100%;
+    background-attachment: scroll, local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   /* Create the parallax scrolling effect */
+  }
+
+  .bg-hero h1 {
+    position: absolute;
+    bottom: 580px !important;
+    font-weight: 800;
+    font-size: medium;
+    font-family: "Inter", sans-serif;
+  }
+
+  .invis {
+    display: none;
+  }
+
+  .invisMobile {
+    display: block;
+  }
+
+  .footer-home .content-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+    margin-top: 40px;
+  }
+
+  .footer-home .content-flex p {
+    text-align: left;
+  }
+
+  .footer-home {
+    max-width: 91%;
+    margin: 80px auto;
+    background-color: var(--color-primary);
+    height: 100%;
+    min-height: 270px;
+    border-radius: 16px;
+    padding-bottom: 20px;
+  }
+
+  .footer-home .graph {
+    width: 100%; /* Adjust as needed */
+    height: 270px;
+    min-height: 270px;
+    background-image: none;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: revert; /* Or adjust based on your preference */
+    position: relative;
+    z-index: 1;
+    max-width: 90%;
+    margin: 30px auto;
+    border-radius: 15px;
+  }
+
+  .divider {
+    margin: 0px 5px;
+    height: 1px;
+    background-color: #fff;
+  }
+
+  .spacer {
+    margin-top: -10px;
+  }
+
+  .font-inter-light {
+    font-weight: 300 !important;
+    font-size: x-small !important;
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-bold {
+    font-weight: 700 !important;
+    font-size: large;
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-semi {
+    font-weight: 600 !important;
+    font-size: medium;
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-extrabold {
+    font-weight: 800;
+    font-size: small;
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-regular {
+    font-weight: 400;
+    font-size: small;
+    font-family: "Inter", sans-serif;
+  }
+
+  .footer-home .content-link {
+    padding: 20px 5px;
+  }
+
+  .footer-home .content-link .mr-3 {
+    margin-right: 22px;
+  }
 }
 
 /* media query desktop */

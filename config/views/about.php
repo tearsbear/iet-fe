@@ -1,34 +1,37 @@
 <?php include("config/components/desktop/about/bg-hero.php");?>
 
-<div class="content">
-    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-            <button class="nav-link active" id="pills-about-tab" data-toggle="pill" data-target="#pills-about"
-                type="button" role="tab" aria-controls="pills-about" aria-selected="true">About IET</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-vision-tab" data-toggle="pill" data-target="#pills-vision" type="button"
-                role="tab" aria-controls="pills-vision" aria-selected="false">Vision & Mission</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-history-tab" data-toggle="pill" data-target="#pills-history"
-                type="button" role="tab" aria-controls="pills-history" aria-selected="false">History</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-organize-tab" data-toggle="pill" data-target="#pills-organize"
-                type="button" role="tab" aria-controls="pills-organize" aria-selected="false">Organizational
-                Structure</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-people-tab" data-toggle="pill" data-target="#pills-people" type="button"
-                role="tab" aria-controls="pills-people" aria-selected="false">People</button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-member-tab" data-toggle="pill" data-target="#pills-member" type="button"
-                role="tab" aria-controls="pills-member" aria-selected="false">Membership</button>
-        </li>
-    </ul>
+<div class="">
+    <div class="content" style="align-items: center">
+        <ul class="nav nav-pills mb-3 text-center" id="pills-tab" role="tablist">
+            <li class="nav-item" style="min-width: 150px" role="presentation">
+                <button class="nav-link active" id="pills-about-tab" data-toggle="pill" data-target="#pills-about"
+                        type="button" role="tab" aria-controls="pills-about" aria-selected="true">About IET</button>
+            </li>
+            <li class="nav-item" style="min-width: 150px" role="presentation">
+                <button class="nav-link" id="pills-vision-tab" data-toggle="pill" data-target="#pills-vision" type="button"
+                        role="tab" aria-controls="pills-vision" aria-selected="false">Vision & Mission</button>
+            </li>
+            <li class="nav-item" style="min-width: 150px" role="presentation">
+                <button class="nav-link" id="pills-history-tab" data-toggle="pill" data-target="#pills-history"
+                        type="button" role="tab" aria-controls="pills-history" aria-selected="false">History</button>
+            </li>
+            <li class="nav-item" style="min-width: 200px" role="presentation">
+                <button class="nav-link" id="pills-organize-tab" data-toggle="pill" data-target="#pills-organize"
+                        type="button" role="tab" aria-controls="pills-organize" aria-selected="false">Organizational
+                    Structure</button>
+            </li>
+            <li class="nav-item" style="min-width: 150px" role="presentation">
+                <button class="nav-link" id="pills-people-tab" data-toggle="pill" data-target="#pills-people" type="button"
+                        role="tab" aria-controls="pills-people" aria-selected="false">People</button>
+            </li>
+            <li class="nav-item" style="min-width: 150px" role="presentation">
+                <button class="nav-link" id="pills-member-tab" data-toggle="pill" data-target="#pills-member" type="button"
+                        role="tab" aria-controls="pills-member" aria-selected="false">Membership</button>
+            </li>
+        </ul>
+    </div>
 </div>
+
 <div class="tab-content" id="pills-tabContent">
     <div class="tab-pane fade show active" id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab">
         <?php include("config/components/desktop/about/tab-about.php");?>
@@ -50,4 +53,4 @@
     </div>
 </div>
 
-<?php include("config/components/desktop/footer/footer.php");?>
+<?php include("config/components/desktop/home/footer.php");?>
