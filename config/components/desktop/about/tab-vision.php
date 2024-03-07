@@ -4,25 +4,21 @@
         of Synergy, empowering financiers, developers and project owners worldwide to seamlessly connect, collaborate,
         and innovate, revolutionizing the landscape of infrastructure and development renewable projects.</p>
 
-
     <h2 class="font-inter-bold color1 mt-5">Mission</h2>
-
     <div class="row mt-4">
-        <div class="col mb-4">
-            <div class="card-mission">
+        <div class="col-lg-6 mb-4">
+            <div class="card-mission" data-aos="fade-up" data-aos-duration="1300">
                 <div class="content">
                     <span class="badge bg-color1 text-light font-inter-bold">01</span>
-                    <p class="font-inter-regular text-primary mt-3"><b class="font-inter-semi">Facilitating Seamless
-                            Collaboration</b> to streamline
-                        the
-                        interaction between financiers, project
+                    <p class="font-inter-regular text-primary mt-3"><b class="font-inter-semi">Facilitating Seamless Collaboration</b>
+                        to streamline the interaction between financiers, project
                         owners and developers, providing a platform where they can effortlessly connect and collaborate
                         on projects with utmost efficiency.</p>
                 </div>
             </div>
         </div>
-        <div class="col mb-4">
-            <div class="card-mission">
+        <div class="col-lg-6 mb-4">
+            <div class="card-mission" data-aos="fade-up" data-aos-duration="1300">
                 <div class="content">
                     <span class="badge bg-color1 text-light font-inter-bold">02</span>
                     <p class="font-inter-regular text-primary mt-3"><b class="font-inter-semi">Reducing Search Costs</b>
@@ -32,8 +28,10 @@
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card-mission">
+    </div>
+    <div class="row">
+        <div class="col-lg-6 mb-4">
+            <div class="card-mission" data-aos="fade-up" data-aos-duration="1300">
                 <div class="content">
                     <span class="badge bg-color1 text-light font-inter-bold">03</span>
                     <p class="font-inter-regular text-primary mt-3"><b class="font-inter-semi">Optimizing
@@ -43,8 +41,8 @@
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card-mission">
+        <div class="col-lg-6 mb-4">
+            <div class="card-mission" data-aos="fade-up" data-aos-duration="1300">
                 <div class="content">
                     <span class="badge bg-color1 text-light font-inter-bold">04</span>
                     <p class="font-inter-regular text-primary mt-3"><b class="font-inter-semi">Empowering Global

@@ -1,11 +1,11 @@
-<div class="text-center">
+<div class="text-center" data-aos="fade-up" data-aos-duration="1300">
     <h3 class="font-inter-bold color1 mb-3" style="margin-top: 80px">ABOUT IET</h3>
 </div>
-<div class="content-about row">
-    <div class="col-md-5 mb-2" style="text-align: center">
+<div class="content-about row" >
+    <div data-aos="fade-up" data-aos-duration="1300" class="col-lg-5 mb-2" style="text-align: center">
         <img class="img-about" src="assets/about/team.svg" alt="">
     </div>
-    <div class="col-md-5">
+    <div data-aos="fade-up" data-aos-duration="1300" class="col-lg-5">
         <p class="text-primary font-inter-regular">
             Indonesia Energy Transition Implementation Joint Office (IET) is part of the <a href="#pills-history"
                 class="color1 font-inter-semi history-link">National Energy Transition Task

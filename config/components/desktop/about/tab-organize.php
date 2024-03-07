@@ -1,8 +1,8 @@
-<center>
-    <h3 class="font-inter-bold color1" style="margin-top: 80px">Organizational Structure</h3>
-</center>
-<div class="content-about">
-    <div>
+<div class="text-center">
+    <h3 class="font-inter-bold color1" style="margin-top: 80px; margin-bottom: 25px">Organizational Structure</h3>
+</div>
+<div class="content-about row">
+    <div class="text-left col-lg-6" data-aos="fade-up" data-aos-duration="1300">
         <p class="text-primary font-inter-regular mt-n3">
             IET is led by Chairman and Vice Chairman from the Supporting Task Force for the Implementation of the
             National Energy Transition in the PowerSector. According to Minister of Maritime Affairs and Investment
@@ -18,5 +18,7 @@
             of planning, projects, financing, law, and Environmental, Social, and Governance (ESG).
         </p>
     </div>
-    <img src="assets/image/organize.svg" alt="">
+    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1300">
+        <img src="assets/image/organize.svg" alt="">
+    </div>
 </div>

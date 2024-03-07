@@ -1,6 +1,6 @@
 <?php include("config/components/desktop/about/bg-hero.php");?>
 
-<div class="">
+<div data-aos="fade-up" data-aos-duration="1300">
     <div class="content" style="align-items: center">
         <ul class="nav nav-pills mb-3 text-center" id="pills-tab" role="tablist">
             <li class="nav-item" style="min-width: 150px" role="presentation">

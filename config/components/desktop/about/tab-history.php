@@ -1,5 +1,5 @@
-<div class="bg-history">
-    <div class="content">
+<div class="bg-history" data-aos="fade-up" data-aos-duration="1300">
+    <div class="content-history">
         <h1 class="font-inter-bold color1">History</h1>
         <p class="font-inter-regular" style="display: block">
             To support the acceleration of energy transition in Indonesia, the Government of the Republic of Indonesia

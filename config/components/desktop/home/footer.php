@@ -1,4 +1,4 @@
-<div class="footer-home">
+<div class="footer-home" data-aos="fade-up" data-aos-duration="1300">
     <br>
     <div class="graph">
         <br class="displayHome">
