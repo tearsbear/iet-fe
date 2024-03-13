@@ -4,6 +4,8 @@
 
 :root {
   --color-primary: #1e74a6;
+  --color-textModal: #4D5E80;
+  --color-red: #a10217;
   --color-secondary: #fbfcf3;
   --primary-text: #333333;
 }
@@ -45,6 +47,14 @@
 
 .color1 {
   color: var(--color-primary) !important;
+}
+
+.color3 {
+  color: var(--color-textModal) !important;
+}
+
+.colorRed {
+  color: var(--color-red) !important;
 }
 
 .bg-color1 {

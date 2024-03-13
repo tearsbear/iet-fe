@@ -10,7 +10,7 @@
                 <span><h1><b>Payables Finance (PF)</b></h1></span>
             </div>
             <div class="col">
-                <a href="index.php?page=login" class="btn btn-login interested">
+                <a href="index.php?page=login" class="btn btn-login interested" data-toggle="modal" data-target="#exampleModalLong">
                     <img src="assets/icons/like.svg" alt="">
                     I’m Interested
                 </a>
@@ -115,5 +115,108 @@ Interest incurred on this transaction can be charged to the Developer and deduct
         </div>
     </div>
 </div>
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Are you interested in this project?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="min-height: 560px; max-height: 560px; float: left; overflow: auto;">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. labore et dolore.</p>
+                    <div class="card" style="width:100%; margin-bottom: 10px">
+                        <div class="card-body">
+                            <h5 class="card-title color1">Product 1</h5>
+                            <div class=" row justify-content-between">
+                                <div class="col-lg-auto col-auto">
+                                    <h6 class="card-title color3">Indicative Rate</h6>
+                                    <h6 class="card-title color3">Indicative Rate</h6>
+                                    <h6 class="card-title color3">Tenor</h6>
+                                </div>
+                                <div class="col-lg-auto col-auto">
+                                    <h6 class="card-text">Lorem Ipsum</h6>
+                                    <h6 class="card-text">Lorem Ipsum</h6>
+                                    <h6 class="card-text">Lorem Ipsum</h6>
+                                </div>
+                                <div class="col-lg-1 col-1 align-self-center" style="margin-bottom: 40px">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width:100%; margin-bottom: 10px">
+                        <div class="card-body">
+                            <h5 class="card-title color1">Product 2</h5>
+                            <div class=" row justify-content-between">
+                                <div class="col-lg-auto col-auto">
+                                    <h6 class="card-title color3">Indicative Rate</h6>
+                                    <h6 class="card-title color3">Indicative Rate</h6>
+                                    <h6 class="card-title color3">Tenor</h6>
+                                </div>
+                                <div class="col-lg-auto col-auto">
+                                    <h6 class="card-text">Lorem Ipsum</h6>
+                                    <h6 class="card-text">Lorem Ipsum</h6>
+                                    <h6 class="card-text">Lorem Ipsum</h6>
+                                </div>
+                                <div class="col-lg-1 col-1 align-self-center" style="margin-bottom: 40px">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width:100%; margin-bottom: 10px">
+                        <div class="card-body">
+                            <h5 class="card-title color1">Product 3</h5>
+                            <div class=" row justify-content-between">
+                                <div class="col-lg-auto col-auto">
+                                    <h6 class="card-title color3">Indicative Rate</h6>
+                                    <h6 class="card-title color3">Indicative Rate</h6>
+                                    <h6 class="card-title color3">Tenor</h6>
+                                </div>
+                                <div class="col-lg-auto col-auto">
+                                    <h6 class="card-text">Lorem Ipsum</h6>
+                                    <h6 class="card-text">Lorem Ipsum</h6>
+                                    <h6 class="card-text">Lorem Ipsum</h6>
+                                </div>
+                                <div class="col-lg-1 col-1 align-self-center" style="margin-bottom: 40px">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="width:100%; margin-bottom: 10px">
+                        <div class="card-body">
+                            <h5 class="card-title color1">Product 4</h5>
+                            <div class=" row justify-content-between">
+                                <div class="col-lg-auto col-auto">
+                                    <h6 class="card-title color3">Indicative Rate</h6>
+                                    <h6 class="card-title color3">Indicative Rate</h6>
+                                    <h6 class="card-title color3">Tenor</h6>
+                                </div>
+                                <div class="col-lg-auto col-auto">
+                                    <h6 class="card-text">Lorem Ipsum</h6>
+                                    <h6 class="card-text">Lorem Ipsum</h6>
+                                    <h6 class="card-text">Lorem Ipsum</h6>
+                                </div>
+                                <div class="col-lg-1 col-1 align-self-center" style="margin-bottom: 40px">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1"><span style="font-size: 17px; font-weight: 500">Summary</span><span style="color: grey; font-size: 10px">(Optional)</span></label>
+                        <textarea placeholder="Input Summary" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn colorRed"  data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-login">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <?php include("config/components/desktop/home/footer.php"); ?>
