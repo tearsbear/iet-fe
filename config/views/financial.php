@@ -5,10 +5,11 @@
         <span><a class="nav-link" style="color: grey" href="index.php?page=financial">&#60; Back to Home</a></span>
     </div>
     <div class="title-page">
-        <span><h1><b>Financial Product</b></h1></span><br/>
-        <span>Alternative sumber pembiayaan untuk membiayai pekerjaan konstruksi<br/>Pembangkit Renewable Energy</span>
+        <span class="titles"><a>Financial Product</a></span><br/>
+        <span class="ket">Alternative sumber pembiayaan untuk membiayai pekerjaan konstruksi<br/>Pembangkit Renewable Energy</span>
     </div>
-    <div class="text-left table-style">
+    <div class="table-data container testimonial-group" data-aos="fade-up" data-aos-duration="1300">
+        <div class="text-left table-style row">
         <table class="table mt-4">
             <thead>
             <tr class="color1 font-inter-regular">
@@ -56,6 +57,7 @@
             </tbody>
         </table>
     </div>
+    </div>
 </div>
 
-<?php include("config/components/desktop/footer/footer.php");?>`
+<?php include("config/components/desktop/home/footer.php");?>

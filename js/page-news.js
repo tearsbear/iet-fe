@@ -1,3 +1,7 @@
+$(document).ready(function () {
+  AOS.init();
+});
+
 let news = [
   {
     cover: "1.png",

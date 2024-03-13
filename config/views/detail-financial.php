@@ -1,24 +1,24 @@
 <?php include("config/components/desktop/navbar/navbar.php"); ?>
 
-<div class="content">
+<div class="contents">
     <div class="back-button">
         <span><a class="nav-link" style="color: grey" href="index.php?page=financial">&#60; Back to Financial Product List</a></span>
     </div>
     <div class="title-page">
-        <div class="row justify-content-between">
-            <div class="col-4">
+        <div class="row">
+            <div class="col">
                 <span><h1><b>Payables Finance (PF)</b></h1></span>
             </div>
-            <div class="col-3">
-                <a style="width: 175px" href="index.php?page=login" class="btn btn-login">
-                    <img src="assets/icons/like.svg" alt="" style="padding-right: 10px; width: 25px;">
+            <div class="col">
+                <a href="index.php?page=login" class="btn btn-login interested">
+                    <img src="assets/icons/like.svg" alt="">
                     I’m Interested
                 </a>
             </div>
         </div>
     </div>
-    <div style="margin-left: 85px; margin-bottom: 10px">
-        <span><b style="font-size: large">Financier Detail Name</b></span>
+    <div class="sub-title">
+        <span><b>Financier Detail Name</b></span>
     </div>
     <div class="text-left description">
         <div class="row">
@@ -26,7 +26,7 @@
                 <div class="pb-3 pr-3 pl-3">
                     <span><b>Proposed Financial Product Scheme Flow</b></span><br/>
                     <span>
-                            <img style="width: 550px" src="assets/image/detail-financial.png" alt="">
+                            <img src="assets/image/detail-financial.png" alt="" class="img-detail-finance">
                     </span>
                 </div>
             </div>
@@ -116,4 +116,4 @@ Interest incurred on this transaction can be charged to the Developer and deduct
     </div>
 </div>
 
-<?php include("config/components/desktop/footer/footer.php"); ?>`
+<?php include("config/components/desktop/home/footer.php"); ?>

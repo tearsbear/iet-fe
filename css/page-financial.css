@@ -7,6 +7,7 @@
     color: grey;
 }
 .back-button {
+    font-size: 15px;
     padding-left: 55px;
     padding-bottom: 20px;
 }
@@ -14,7 +15,15 @@
 .title-page {
     padding-left: 70px;
     padding-bottom: 20px;
+    .titles {
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .ket {
+        font-size: medium;
+    }
 }
+
 .desTitle {
     color: #c9c9c9;
     font-size: 13px;
@@ -26,5 +35,402 @@ hr {
 }
 
 .table-style {
-    margin: 0 70px;
+    margin: 0 25px;
+}
+
+/* footer */
+.displayHome {
+    display: none;
+}
+
+.invisMobile {
+    display: none;
+}
+
+.footer-home .copyright {
+    font-size: 14px;
+}
+
+
+.footer-home {
+    max-width: 91%;
+    margin: 80px auto;
+    background-color: var(--color-primary);
+    height: 100%;
+    border-radius: 16px;
+    padding-bottom: 20px;
+}
+
+.footer-home .graph {
+    width: 100%; /* Adjust as needed */
+    height: 100%;
+    min-height: 290px;
+    background-image: url("../assets/background/graph.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Or adjust based on your preference */
+    position: relative;
+    z-index: 1;
+    max-width: 90%;
+    margin: 30px auto;
+    border-radius: 15px;
+}
+
+.graph .content {
+    margin: 20px 50px;
+}
+
+.graph .content p {
+    max-width: 200px;
+}
+
+.graph .content span {
+    font-size: 15px;
+}
+
+.footer-home .content-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 55px;
+    margin-top: 40px;
+}
+
+.footer-home .content-flex p {
+    text-align: right;
+}
+
+.divider {
+    margin: 0px 55px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.footer-home .content-link {
+    padding: 40px 55px;
+}
+
+
+/* media query mobile */
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+    .title-page {
+        padding-left: 20px;
+        padding-bottom: 20px;
+        .titles {
+            font-weight: 700;
+            font-size: 20px;
+        }
+        .ket {
+            font-size: small;
+        }
+    }
+
+    .table-data {
+        padding: 0 25px 0 25px
+    }
+
+    /* The heart of the matter */
+    .testimonial-group > .row {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .testimonial-group > .row > .col-sm-4 {
+        display: inline-block;
+        float: none;
+    }
+
+    .table-style {
+        margin: 0 0;
+    }
+    .back-button {
+        font-size: 15px;
+        padding-left: 5px;
+        padding-bottom: 20px;
+    }
+    .content {
+        margin: 80px 20px;
+    }
+
+    /* footer mobile*/
+    .invis {
+        display: none;
+    }
+
+    .invisMobile {
+        display: block;
+    }
+
+    .footer-home .content-flex {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 0px;
+        margin-top: 40px;
+    }
+
+    .footer-home .content-flex p {
+        text-align: left;
+    }
+
+    .footer-home .content-link {
+        padding: 20px 5px;
+    }
+
+    .footer-home .content-link .mr-3 {
+        margin-right: 22px;
+    }
+
+    .footer-home {
+        max-width: 91%;
+        margin: 80px auto;
+        background-color: var(--color-primary);
+        height: 100%;
+        min-height: 270px;
+        border-radius: 16px;
+        padding-bottom: 20px;
+    }
+
+    .footer-home .graph {
+        width: 100%; /* Adjust as needed */
+        height: 270px;
+        min-height: 270px;
+        background-image: none;
+        background-size: cover;
+
+        background-repeat: no-repeat;
+        background-position: revert; /* Or adjust based on your preference */
+        position: relative;
+        z-index: 1;
+        max-width: 90%;
+        margin: 30px auto;
+        border-radius: 15px;
+    }
+
+    .divider {
+        margin: 0px 5px;
+        height: 1px;
+        background-color: #fff;
+    }
+
+    .spacer {
+        margin-top: -10px;
+    }
+    .font-inter-light {
+        font-weight: 300 !important;
+        font-size: x-small !important;
+        font-family: "Inter", sans-serif;
+    }
+    .font-inter-semi {
+        font-weight: 600 !important;
+        font-size: medium;
+        font-family: "Inter", sans-serif;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    .table-data {
+        padding: 0 25px 0 25px
+    }
+
+    /* The heart of the matter */
+    .testimonial-group > .row {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .testimonial-group > .row > .col-sm-4 {
+        display: inline-block;
+        float: none;
+    }
+
+    .table-style {
+        margin: 0 0;
+    }
+    .back-button {
+        padding-left: 5px;
+        padding-bottom: 20px;
+    }
+    .title-page {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .content {
+        margin: 80px 20px;
+    }
+
+    /* footer mobile*/
+    .invis {
+        display: none;
+    }
+
+    .invisMobile {
+        display: block;
+    }
+
+    .footer-home .content-flex {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 0px;
+        margin-top: 40px;
+    }
+
+    .footer-home .content-flex p {
+        text-align: left;
+    }
+
+    .footer-home {
+        max-width: 91%;
+        margin: 80px auto;
+        background-color: var(--color-primary);
+        height: 100%;
+        min-height: 270px;
+        border-radius: 16px;
+        padding-bottom: 20px;
+    }
+
+    .footer-home .content-link {
+        padding: 20px 5px;
+    }
+
+    .footer-home .content-link .mr-3 {
+        margin-right: 22px;
+    }
+
+    .footer-home .graph {
+        width: 100%; /* Adjust as needed */
+        height: 270px;
+        min-height: 270px;
+        background-image: none;
+        background-size: cover;
+
+        background-repeat: no-repeat;
+        background-position: revert; /* Or adjust based on your preference */
+        position: relative;
+        z-index: 1;
+        max-width: 90%;
+        margin: 30px auto;
+        border-radius: 15px;
+    }
+
+    .divider {
+        margin: 0px 5px;
+        height: 1px;
+        background-color: #fff;
+    }
+
+    .spacer {
+        margin-top: -10px;
+    }
+    .font-inter-light {
+        font-weight: 300 !important;
+        font-size: x-small !important;
+        font-family: "Inter", sans-serif;
+    }
+    .font-inter-semi {
+        font-weight: 600 !important;
+        font-size: medium;
+        font-family: "Inter", sans-serif;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    .table-data {
+        padding: 0 25px 0 25px
+    }
+
+    /* The heart of the matter */
+    .testimonial-group > .row {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .testimonial-group > .row > .col-sm-4 {
+        display: inline-block;
+        float: none;
+    }
+
+    .table-style {
+        margin: 0 0;
+    }
+    .back-button {
+        padding-left: 5px;
+        padding-bottom: 20px;
+    }
+    .title-page {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .content {
+        margin: 80px 20px;
+    }
+
+    /* footer mobile*/
+    .invis {
+        display: none;
+    }
+
+    .invisMobile {
+        display: block;
+    }
+
+    .footer-home .content-flex {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 0px;
+        margin-top: 40px;
+    }
+
+    .footer-home .content-flex p {
+        text-align: left;
+    }
+
+    .footer-home {
+        max-width: 91%;
+        margin: 80px auto;
+        background-color: var(--color-primary);
+        height: 100%;
+        min-height: 270px;
+        border-radius: 16px;
+        padding-bottom: 20px;
+    }
+
+    .footer-home .content-link {
+        padding: 20px 5px;
+    }
+
+    .footer-home .content-link .mr-3 {
+        margin-right: 22px;
+    }
+
+    .footer-home .graph {
+        width: 100%; /* Adjust as needed */
+        height: 270px;
+        min-height: 270px;
+        background-image: none;
+        background-size: cover;
+
+        background-repeat: no-repeat;
+        background-position: revert; /* Or adjust based on your preference */
+        position: relative;
+        z-index: 1;
+        max-width: 90%;
+        margin: 30px auto;
+        border-radius: 15px;
+    }
+
+    .divider {
+        margin: 0px 5px;
+        height: 1px;
+        background-color: #fff;
+    }
+
+    .spacer {
+        margin-top: -10px;
+    }
+    .font-inter-light {
+        font-weight: 300 !important;
+        font-size: x-small !important;
+        font-family: "Inter", sans-serif;
+    }
+    .font-inter-semi {
+        font-weight: 600 !important;
+        font-size: medium;
+        font-family: "Inter", sans-serif;
+    }
 }

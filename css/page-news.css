@@ -43,16 +43,37 @@
   color: #717171;
 }
 
-.content {
-  max-width: 80%;
-  margin: 200px auto;
+.contents {
+  /* max-width: 80%; */
+  /* margin: 200px auto; */
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  margin: 60px 10px;
 }
 
-.content img {
+.content-news {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px 20px;
+}
+
+.contents img {
   border-radius: 15px;
+  width: 510px;
+
 }
 
-.content .title {
+.content-news img {
+  border-radius: 15px;
+  width: 350px;
+}
+
+.contents div {
+  margin: 0px 45px;
+}
+
+.contents .title {
   display: block;
   margin-top: 20px;
   font-size: 18px;
@@ -60,21 +81,385 @@
   text-align: left;
 }
 
-.content .title:hover {
+.contents .title:hover {
   color: var(--color-primary) !important;
 }
 
-.content p {
+.contents p {
   color: #717171;
   font-size: 13px;
+}
+
+.content-news {
+  display: flex;
+  justify-content: flex-start;
+  /* align-items: center; */
+  margin: 60px 10px;
+}
+
+.content-news div{
+  column-gap: 20px;
+  display: grid;
 }
 
 #listNews {
   display: grid;
   grid-template-columns: repeat(
-    auto-fill,
-    minmax(300px, 1fr)
+      auto-fill,
+      minmax(300px, 1fr)
   ); /* Adjust min and max width as needed */
   gap: 20px; /* Adjust gap between items */
-  justify-items: start; /* Align items to the start of each grid cell */
+  justify-items: flex-start; /* Align items to the start of each grid cell */
+}
+
+/* footer */
+.displayHome {
+  display: none;
+}
+
+.invisMobile {
+  display: none;
+}
+
+.footer-home .copyright {
+  font-size: 14px;
+}
+
+
+.footer-home {
+  max-width: 91%;
+  margin: 80px auto;
+  background-color: var(--color-primary);
+  height: 100%;
+  border-radius: 16px;
+  padding-bottom: 20px;
+}
+
+.footer-home .graph {
+  width: 100%; /* Adjust as needed */
+  height: 100%;
+  min-height: 290px;
+  background-image: url("../assets/background/graph.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; /* Or adjust based on your preference */
+  position: relative;
+  z-index: 1;
+  max-width: 90%;
+  margin: 30px auto;
+  border-radius: 15px;
+}
+
+.graph .content {
+  margin: 20px 50px;
+}
+
+.graph .content p {
+  max-width: 200px;
+}
+
+.graph .content span {
+  font-size: 15px;
+}
+
+.footer-home .content-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 55px;
+  margin-top: 40px;
+}
+
+.footer-home .content-flex p {
+  text-align: right;
+}
+
+.divider {
+  margin: 0px 55px;
+  height: 1px;
+  background-color: #fff;
+}
+
+.footer-home .content-link {
+  padding: 40px 55px;
+}
+
+
+/* media query mobile */
+@media only screen and (min-width: 300px) and (max-width: 399px) {
+  .contents img {
+    width: 310px;
+  }
+
+  .content-news img {
+    width: 310px;
+  }
+
+  .contents {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+    margin: 5px;
+  }
+
+  .content-news {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 90%;
+    margin: 5px;
+    padding: 0 0;
+    transform: translateX(-10px);
+  }
+
+  .contents div {
+    margin: 0px 5px;
+  }
+
+  .contents p {
+    line-height: 32px;
+    font-size: 12px;
+  }
+
+  .bg-hero {
+    background-image: url("../assets/background/bg-news.png");
+    /* Set a specific height */
+    min-height: 400px;
+    width: 100%;
+    background-attachment: scroll, local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   /* Create the parallax scrolling effect */
+  }
+
+  .bg-hero h1 {
+    position: absolute;
+    bottom: 410px !important;
+    font-weight: 800;
+    font-size: medium;
+    font-family: "Inter", sans-serif;
+  }
+
+  /* footer mobile*/
+
+  .invis {
+    display: none;
+  }
+
+  .invisMobile {
+    display: block;
+  }
+
+  .footer-home .content-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+    margin-top: 40px;
+  }
+
+  .footer-home .content-flex p {
+    text-align: left;
+  }
+
+  .footer-home .content-link {
+    padding: 20px 5px;
+  }
+
+  .footer-home .content-link .mr-3 {
+    margin-right: 22px;
+  }
+
+  .footer-home {
+    max-width: 91%;
+    margin: 80px auto;
+    background-color: var(--color-primary);
+    height: 100%;
+    min-height: 270px;
+    border-radius: 16px;
+    padding-bottom: 20px;
+  }
+
+  .footer-home .graph {
+    width: 100%; /* Adjust as needed */
+    height: 270px;
+    min-height: 270px;
+    background-image: none;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: revert; /* Or adjust based on your preference */
+    position: relative;
+    z-index: 1;
+    max-width: 90%;
+    margin: 30px auto;
+    border-radius: 15px;
+  }
+
+  .divider {
+    margin: 0px 5px;
+    height: 1px;
+    background-color: #fff;
+  }
+
+  .spacer {
+    margin-top: -10px;
+  }
+  .font-inter-light {
+    font-weight: 300 !important;
+    font-size: x-small !important;
+    font-family: "Inter", sans-serif;
+  }
+  .font-inter-semi {
+    font-weight: 600 !important;
+    font-size: medium;
+    font-family: "Inter", sans-serif;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+  .contents img {
+    width: 350px;
+  }
+
+  .content-news img {
+    width: 330px;
+  }
+
+  .contents {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+    margin: 5px;
+  }
+
+  .content-news {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    margin: 5px;
+    padding: 0 0;
+  }
+
+  .contents div {
+    margin: 0px 5px;
+  }
+
+  .contents p {
+    line-height: 32px;
+    font-size: 12px;
+  }
+
+  .bg-hero {
+    background-image: url("../assets/background/bg-news.png");
+    /* Set a specific height */
+    min-height: 400px;
+    width: 100%;
+    background-attachment: scroll, local;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   /* Create the parallax scrolling effect */
+  }
+
+  .bg-hero h1 {
+    position: absolute;
+    bottom: 580px !important;
+    font-weight: 800;
+    font-size: medium;
+    font-family: "Inter", sans-serif;
+  }
+
+  .invis {
+    display: none;
+  }
+
+  .invisMobile {
+    display: block;
+  }
+
+  .footer-home .content-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px;
+    margin-top: 40px;
+  }
+
+  .footer-home .content-flex p {
+    text-align: left;
+  }
+
+  .footer-home {
+    max-width: 91%;
+    margin: 80px auto;
+    background-color: var(--color-primary);
+    height: 100%;
+    min-height: 270px;
+    border-radius: 16px;
+    padding-bottom: 20px;
+  }
+
+  .footer-home .content-link {
+    padding: 20px 5px;
+  }
+
+  .footer-home .content-link .mr-3 {
+    margin-right: 22px;
+  }
+
+  .footer-home .graph {
+    width: 100%; /* Adjust as needed */
+    height: 270px;
+    min-height: 270px;
+    background-image: none;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: revert; /* Or adjust based on your preference */
+    position: relative;
+    z-index: 1;
+    max-width: 90%;
+    margin: 30px auto;
+    border-radius: 15px;
+  }
+
+  .divider {
+    margin: 0px 5px;
+    height: 1px;
+    background-color: #fff;
+  }
+
+  .spacer {
+    margin-top: -10px;
+  }
+  .font-inter-light {
+    font-weight: 300 !important;
+    font-size: x-small !important;
+    font-family: "Inter", sans-serif;
+  }
+  .font-inter-semi {
+    font-weight: 600 !important;
+    font-size: medium;
+    font-family: "Inter", sans-serif;
+  }
+}
+
+/* media query desktop */
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .nav-space {
+    margin-right: 2px;
+  }
+
+  .bg-hero h1 {
+    bottom: 65px;
+    font-size: 46px;
+  }
+
+  .nav-pills .nav-link {
+    font-size: 7px;
+  }
+
+  .bg-hero .content {
+    margin: 80px 22px;
+  }
 }
