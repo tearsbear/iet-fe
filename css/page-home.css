@@ -187,13 +187,13 @@ video {
 }
 
 .bg-biograph {
-  height: 752px;
+  max-height: 700px !important;
   background-color: #136695;
-  margin-bottom: 10px;
 }
 
 .bg-biograph .content {
-  margin: 80px 80px 0px;
+  margin: auto;
+  transform: translateX(25%);
 }
 
 .bg-biograph .role {
@@ -201,10 +201,14 @@ video {
   font-size: 20px;
 }
 
-.bg-biograph .img-profile {
-  width: 88%;
-  margin-top: 72px;
-  margin-left: 77px;
+.bg-biograph .col-md-5{
+  margin: auto;
+  display: flex;
+}
+
+.bg-biograph .col-md-5 img {
+  width: 55%;
+  margin: auto;
 }
 
 .quote {
@@ -504,11 +508,21 @@ video {
   }
 
   .bg-biograph {
-    min-height: 1101px;
+    min-height: 1000px;
   }
 
   .bg-biograph .content {
     margin: 42px 20px 0px;
+    transform: translateX(0);
+  }
+
+  .bg-biograph .col-md-5 {
+    margin: auto;
+    display: flex;
+  }
+
+  .bg-biograph .col-md-5 img{
+    margin: auto;
   }
 
   .bg-biograph .content h1 {
@@ -528,6 +542,12 @@ video {
     display: inline-block;
     float: none;
   }
+
+  /* Decorations */
+  /*.col-sm-4 { color: #fff; font-size: 48px; padding-bottom: 20px; padding-top: 18px; }*/
+  /*.col-sm-4:nth-child(3n+1) { background: #c69; }*/
+  /*.col-sm-4:nth-child(3n+2) { background: #9c6; }*/
+  /*.col-sm-4:nth-child(3n+3) { background: #69c; }*/
 
   .container {
     max-width: 100%;
@@ -672,8 +692,13 @@ video {
     width: 100%;
   }
 
-  .bg-biograph .img-profile {
-    margin-left: 29px;
+  .bg-biograph .col-md-5 {
+    margin: auto;
+    display: flex;
+  }
+
+  .bg-biograph .col-md-5 img{
+    margin: auto;
   }
 
   .font-inter-extrabold {
@@ -752,7 +777,9 @@ video {
 
   .bg-biograph .content {
     margin: 42px 20px 0px;
+    transform: translateX(0);
   }
+
   .bg-biograph .content h1 {
     font-size: 31px;
   }
@@ -797,10 +824,6 @@ video {
 
   .bg-biograph {
     min-height: 916px;
-  }
-
-  .bg-biograph .content {
-    margin: 42px 80px 0px;
   }
 
   .bg-biograph .content h1 {
@@ -1128,7 +1151,7 @@ video {
   }
 
   .bg-biograph {
-    height: 635px;
+    height: 535px;
   }
 
   .bg-biograph .content h1 {
