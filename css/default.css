@@ -48,6 +48,7 @@ body {
   border-radius: 8px;
   border: 1px solid #dfdfdf;
   width: 200px !important;
+  position: relative;
 }
 
 .input-search input {
@@ -58,15 +59,16 @@ body {
 
 .icon-search {
   position: absolute;
-  right: 160px;
-  display: flex;
-  align-items: center;
+  cursor: pointer;
+  top: 8px;
+  inset-inline-end: 8px;
   border-radius: 10px;
 }
 
 .btn-login {
   display: flex;
   padding: 8px 16px;
+  margin-left: 10px;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
@@ -105,4 +107,95 @@ body {
 
 .content-link p {
   text-align: right;
+}
+
+.profile{
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background-color: rgb(186, 186, 185);
+  margin-bottom: 10px;
+}
+
+.drop-prof{
+  transform: translateX(-165px);
+  max-width: 200px;
+  padding: 5px 10px;
+}
+
+.drop-sel:hover{
+  background: var(--color-primary);
+  color: white;
+}
+
+.drop-prof a {
+  padding: 4px 6px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px){
+  .drop-prof{
+    margin-top: 5px;
+    transform: translateX(-19px);
+  }
+
+  .profile {
+    margin-top: 10px;
+    transform: translateX(-19px);
+  }
+
+  .input-search {
+    width: 100% !important;
+  }
+
+  .input-search input{
+    width: 100%;
+  }
+
+  .btn-login {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .opt-lang {
+    transform: translateX(-19px);
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  .drop-prof{
+    margin-top: 5px;
+    transform: translateX(-19px);
+  }
+
+  .profile {
+    margin-top: 10px;
+    transform: translateX(-19px);
+  }
+
+  .input-search {
+    width: 100% !important;
+  }
+
+  .input-search input{
+    width: 100%;
+  }
+
+  .btn-login {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .opt-lang {
+    transform: translateX(-19px);
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .drop-prof{
+    transform: translateX(-165px);
+  }
 }
