@@ -407,7 +407,9 @@ video {
   display: none;
 }
 
-/* media query desktop */
+
+
+/* media query mobile */
 @media only screen and (min-width: 300px) and (max-width: 399px) {
   .invis {
     display: none;
@@ -503,8 +505,27 @@ video {
     font-family: "Inter", sans-serif;
   }
 
-  .bg-biograph .img-profile {
-    margin-left: 29px;
+  .bg-biograph .img-profile-one {
+    margin-left: 49px;
+    width: 80%;
+  }
+
+  .bg-biograph .img-profile-2 {
+    margin-left: 49px;
+    margin-top: 42px;
+    width: 80%;
+  }
+
+  .bg-biograph .img-profile-3 {
+    margin-left: 49px;
+    margin-top: 41px;
+    width: 77%;
+  }
+
+  .bg-biograph .img-profile-4 {
+    margin-left: 10px;
+    margin-top: 8px;
+    width: 89%;
   }
 
   .bg-biograph {
@@ -701,6 +722,29 @@ video {
     margin: auto;
   }
 
+  .bg-biograph .img-profile-one {
+    margin-left: 49px;
+    width: 81%;
+  }
+
+  .bg-biograph .img-profile-2 {
+    margin-left: 49px;
+    margin-top: 3px;
+    width: 81%;
+  }
+
+  .bg-biograph .img-profile-3 {
+    margin-left: 49px;
+    margin-top: 1px;
+    width: 77%;
+  }
+
+  .bg-biograph .img-profile-4 {
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 81%;
+  }
+
   .font-inter-extrabold {
     font-weight: 800;
     font-size: small;
@@ -772,7 +816,7 @@ video {
   }
 
   .bg-biograph {
-    min-height: 1020px;
+    min-height: 915px;
   }
 
   .bg-biograph .content {
@@ -810,9 +854,10 @@ video {
   }
 }
 
+/* media query desktop */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
-  .bg-biograph .img-profile {
+  .bg-biograph .img-profile-one {
     margin-top: 540px;
     margin-left: 10px;
     width: 100%;
@@ -915,7 +960,7 @@ video {
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1280px) {
-  .bg-biograph .img-profile {
+  .bg-biograph .img-profile-one {
     width: 73%;
     margin-top: 372px;
     margin-left: 169px;
@@ -1011,6 +1056,7 @@ video {
   }
 }
 
+/*1*/
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
   .font-inter-extrabold {
     font-weight: 800;
@@ -1034,10 +1080,28 @@ video {
     height: 554px;
   }
 
-  .bg-biograph .img-profile {
+  .bg-biograph .img-profile-one {
     width: 73%;
     margin-top: 68px;
-    margin-left: 169px;
+    margin-left: 147px;
+  }
+
+  .bg-biograph .img-profile-2 {
+    width: 73%;
+    margin-top: 71px;
+    margin-left: 147px;
+  }
+
+  .bg-biograph .img-profile-3 {
+    width: 73%;
+    margin-top: 14px;
+    margin-left: 140px;
+  }
+
+  .bg-biograph .img-profile-4 {
+    width: 80%;
+    margin-top: 28px;
+    margin-left: 110px;
   }
 
   .quote p {
@@ -1097,7 +1161,7 @@ video {
     font-size: 17px;
   }
 
-  .bg-biograph .img-profile {
+  .bg-biograph .img-profile-one {
     width: 73%;
     margin-top: 72px;
     margin-left: 169px;
@@ -1113,7 +1177,8 @@ video {
   }
 }
 
-@media only screen and (min-width: 1470px) and (max-width: 1710px) {
+/*2*/
+@media only screen and (min-width: 1470px) and (max-width: 1679px) {
   .font-inter-extrabold {
     font-weight: 800;
     /*font-size: 50px;*/
@@ -1151,7 +1216,7 @@ video {
   }
 
   .bg-biograph {
-    height: 535px;
+    height: 600px;
   }
 
   .bg-biograph .content h1 {
@@ -1162,10 +1227,107 @@ video {
     font-size: 17px;
   }
 
-  .bg-biograph .img-profile {
-    width: 62%;
-    margin-top: 118px;
-    margin-left: 169px;
+  .bg-biograph .img-profile-one {
+    width: 72%;
+    margin-top: 56px;
+    margin-left: 174px;
+  }
+
+  .bg-biograph .img-profile-2 {
+    width: 72%;
+    margin-top: 59px;
+    margin-left: 174px;
+  }
+
+  .bg-biograph .img-profile-3 {
+    width: 71%;
+    margin-top: 4px;
+    margin-left: 174px;
+  }
+
+  .bg-biograph .img-profile-4 {
+    width: 80%;
+    margin-top: 4px;
+    margin-left: 124px;
+  }
+
+  .footer-home .copyright {
+    font-size: 1.03rem;
+  }
+}
+
+/*3*/
+@media only screen and (min-width: 1680px) and (max-width: 1710px) {
+  .font-inter-extrabold {
+    font-weight: 800;
+    /*font-size: 50px;*/
+    font-family: "Inter", sans-serif;
+  }
+
+  .font-inter-regular {
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+  }
+
+  .nav-space {
+    margin-right: 32px;
+  }
+  #video-text h1 {
+    max-width: 836px;
+    font-size: 47px;
+  }
+
+  .content-project {
+    max-width: 82%;
+  }
+
+  .card-grow {
+    width: 181px;
+    height: 204px;
+  }
+
+  .title-2 {
+    font-size: 20px !important;
+  }
+
+  .title-4 {
+    font-size: 18px !important;
+  }
+
+  .bg-biograph {
+    height: 635px;
+  }
+
+  .bg-biograph .content h1 {
+    font-size: 41px;
+  }
+
+  .quote p {
+    font-size: 17px;
+  }
+
+  .bg-biograph .img-profile-one {
+    width: 72%;
+    margin-top: 37px;
+    margin-left: 191px;
+  }
+
+  .bg-biograph .img-profile-2 {
+    width: 72%;
+    margin-top: 42px;
+    margin-left: 191px;
+  }
+
+  .bg-biograph .img-profile-3 {
+    width: 68%;
+    margin-top: 6px;
+    margin-left: 191px;
+  }
+
+  .bg-biograph .img-profile-4 {
+    width: 77%;
+    margin-top: 3px;
+    margin-left: 155px;
   }
 
   .footer-home .copyright {
@@ -1213,7 +1375,7 @@ video {
     font-size: 20px;
   }
 
-  .bg-biograph .img-profile {
+  .bg-biograph .img-profile-one {
     width: 73%;
     margin-top: 72px;
     margin-left: 202px;
@@ -1334,7 +1496,7 @@ video {
     margin: 80px 167px 0px;
   }
 
-  .bg-biograph .img-profile {
+  .bg-biograph .img-profile-one {
     width: 66%;
     margin-top: 70px;
     margin-left: 373px;

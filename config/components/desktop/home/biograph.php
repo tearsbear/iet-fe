@@ -4,7 +4,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="row">
-                    <div class="col-md-4 content">
+                    <div class="col-lg-4 content">
                         <h1 class="text-light font-inter-bold">Luhut Binsar Pandjaitan</h1>
                         <p class="font-inter-regular role">Indonesia's Coordinating Minister for <br> Maritime Affairs and
                             Investment</p>
@@ -28,14 +28,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
-                        <img class="img-profile" src="assets/image/luhut.png" alt="">
+                    <div class="col-lg-5">
+                        <img class="img-profile-one" class="imgOne" src="assets/image/luhut.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="row">
-                    <div class="col-md-4 content">
+                    <div class="col-lg-4 content">
                         <h1 class="text-light font-inter-bold">Erick Thohir</h1>
                         <p class="font-inter-regular role">Minister of State-owned <br> enterprises of Indonesia</p>
 
@@ -58,14 +58,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
-                        <img class="img-profile" src="assets/image/erick.png" alt="">
+                    <div class="col-lg-5">
+                        <img class="img-profile-2" src="assets/image/erick.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="row">
-                    <div class="col-md-4 content">
+                    <div class="col-lg-4 content">
                         <h1 class="text-light font-inter-bold">Sri Mulyani</h1>
                         <p class="font-inter-regular role">Indonesia Minister Of Finance</p>
 
@@ -88,14 +88,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
-                        <img class="img-profile" src="assets/image/sri.png" alt="">
+                    <div class="col-lg-5">
+                        <img class="img-profile-3" src="assets/image/sri.png" alt="">
                     </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="row">
-                    <div class="col-md-4 content">
+                    <div class="col-lg-4 content">
                         <h1 class="text-light font-inter-bold">Arifin Tasrif</h1>
                         <p class="font-inter-regular role">Indonesia Minister of Energy and <br>Mineral Resources</p>
 
@@ -118,8 +118,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-5">
-                        <img class="img-profile" src="assets/image/arifin.png" alt="">
+                    <div class="col-lg-5">
+                        <img class="img-profile-4" src="assets/image/arifin.png" alt="">
                     </div>
                 </div>
             </div>
