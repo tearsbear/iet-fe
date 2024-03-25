@@ -58,7 +58,7 @@
 </div>
 <div class="row row-people justify-content-center">
     <div class="col-lg-3" align="center" data-aos="fade-up" data-aos-duration="1300">
-        <img src="assets/people/404foto.png" width="250px" style="border-radius: 10px" alt="">
+        <img src="assets/people/angela.png" width="270px" style="min-height: 280px; max-height:280px" alt="">
         <h5 class="font-inter-medium text-primary">
             Angela P. Mangeka
         </h5>
@@ -79,7 +79,7 @@
         <p class="text-muted font-inter-light">Energy Transition Policy and Legal SpecialistT</p>
     </div>
     <div class="col-lg-3" align="center" data-aos="fade-up" data-aos-duration="1300">
-        <img src="assets/people/404foto.png" width="250px" style="border-radius: 10px" alt="">
+        <img src="assets/people/fajar.png" width="250px" style="max-height:280px" alt="">
         <h5 class="font-inter-medium text-primary">
             Fajar B. Suryawan
         </h5>

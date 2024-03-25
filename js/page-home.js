@@ -60,6 +60,14 @@ $(document).ready(function () {
       image: "6.svg",
     },
     {
+      link: "https://www.kemlu.go.id/",
+      image: "00.svg",
+    },
+    {
+      link: "https://www.bkpm.go.id/",
+      image: "99.svg",
+    },
+    {
       link: "https://www.menlhk.go.id/",
       image: "7.svg",
     },
@@ -102,9 +110,10 @@ $(document).ready(function () {
 
   function getPartner() {
     for (let ir = 0; ir < partners.length; ir++) {
-      let item = `<div class="col">
+      let item = `<div class="col-md-2" style="margin-bottom: 20px">
                     <a href="${partners[ir].link}" target="_blank">
-                        <img src="../iet/assets/partner/${partners[ir].image}" alt="">
+<!--                        <img src="../iet/assets/partner/${partners[ir].image}" alt="">-->
+                        <img src="assets/partner/${partners[ir].image}" alt="">
                     </a>
                 </div>`;
       $(item).appendTo(".content-partner");
