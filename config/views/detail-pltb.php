@@ -5,7 +5,17 @@
             <span><a class="nav-link" style="color: grey" href="index.php?page=project">&#60; Back to List Projects</a></span>
         </div>
         <div class="title-page">
-            <span><h1><b>PLTB Tanah Laut</b></h1></span>
+            <div class="row">
+                <div class="col">
+                    <span><h1><b>PLTB Tanah Laut</b></h1></span>
+                </div>
+                <div class="col">
+                    <a href="index.php?page=login" class="btn btn-login interested" data-toggle="modal" data-target="#modalInsterestProject">
+                        <img src="assets/icons/like.svg" alt="">
+                        I’m Interested
+                    </a>
+                </div>
+            </div>
         </div>
         <div class="text-left description">
             <div class="row">
@@ -262,6 +272,30 @@
                         <span class="keterangan"><a>Lorem ipsum dolor sit amet, consectetur adipiscing elit</a></span>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalInsterestProject" tabindex="-1" role="dialog" aria-labelledby="modalInsterestProjectTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" style="width: 23%" role="document">
+            <div class="modal-content">
+                <div>
+                    <button style="margin: 15px" type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="text-align: center; overflow: auto;">
+                    <img style="margin-bottom: 20px" src="assets/image/imgModal.svg" alt="">
+                    <h5 style="margin-bottom: 10px">Are you interested in this project?</h5>
+                    <p style="color: grey">By submitting this, you have agreed that IET will share your contact information with Project Owner who is the owner of this project</p>
+                </div>
+                <div style="margin: 0 20px 20px">
+                    <a style="width: 100%; margin-bottom: 10px" class="btn btn-login interested">Submit</a>
+                    <a style="width: 100%; border-radius: 8px" class="btn btn-outline-danger interested">Cancel</a>
+                </div>
+<!--                <div class="modal-footer">-->
+<!--                    <button type="button" class="btn colorRed"  data-dismiss="modal">Close</button>-->
+<!--                    <button type="button" class="btn btn-login">Submit</button>-->
+<!--                </div>-->
             </div>
         </div>
     </div>
